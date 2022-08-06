@@ -1,0 +1,82 @@
+
+
+$primary:#1F1B2D;
+$secondary:#FD5631;
+$success:#282435;
+$font-family-base:'Noto Sans', sans-serif;
+$border-radius-lg:15px;
+
+$form-check-input-border:1px solid $secondary;
+$form-check-input-checked-color:$secondary;
+
+$display-font-sizes: (
+        1: 5rem,
+        2: 4.5rem,
+        3: 4rem,
+        4: 3.5rem,
+        5: 3rem,
+        6: 15px
+);
+
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/bootstrap-icons/font/bootstrap-icons";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;300;400;600&display=swap');
+
+
+.hero-bg{
+  background-image: url("images/hero-bg.png");
+  background-size: 1920px 630px;
+  background-repeat: no-repeat;
+}
+
+.hero-img{
+  width: 750px !important;
+}
+
+.form-group-style{
+
+}
+
+.hr-light{
+  width: 1px;
+  height: 40px;
+  border-right: 1px solid white;
+  padding: 0 !important;
+}
+
+.photo{
+  position: relative;
+}
+
+.text{
+  z-index: 1000;
+  position: absolute;
+  top: 10px;
+  margin: 0 10px;
+}
+
+
+.heart{
+  z-index: 1000;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  margin: 0 10px;
+}
+
+
+///* Mobile Phone section */
+//@media screen and (max-width: 414px) {
+//  .hero-img{
+//    width: 750px !important;
+//  }
+//
+//}
+//
+///* Tablet Section */
+//@media screen and (max-width: 1024px) {
+//  .hero-img{
+//    width: 750px !important;
+//  }
+//
+//}
