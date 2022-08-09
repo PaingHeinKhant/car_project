@@ -8,18 +8,21 @@ $border-radius-lg:15px;
 
 $form-check-input-border:1px solid $secondary;
 $form-check-input-checked-color:$secondary;
+$h6-font-size:16px;
 
 $display-font-sizes: (
         1: 5rem,
         2: 4.5rem,
         3: 4rem,
-        4: 3.5rem,
+        4: 12px,
         5: 3rem,
-        6: 15px
+        6: 13px
 );
 
 @import "node_modules/bootstrap/scss/bootstrap";
 @import "node_modules/bootstrap-icons/font/bootstrap-icons";
+@import "vendor/slick-1.8.1/slick/slick";
+@import "vendor/slick-1.8.1/slick/slick-theme";
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;300;400;600&display=swap');
 
 
@@ -44,9 +47,9 @@ $display-font-sizes: (
   padding: 0 !important;
 }
 
-.photo{
-  position: relative;
-}
+//.photo{
+//  position: relative;
+//}
 
 .text{
   z-index: 1000;
@@ -60,9 +63,45 @@ $display-font-sizes: (
   z-index: 1000;
   position: absolute;
   top: 10px;
-  right: 20px;
+  right: 10px;
   margin: 0 10px;
 }
+
+.object-fit{
+  max-width: 300px;
+  max-height: 250px;
+  border-radius: 15px;
+}
+
+.main-car1{
+  border-radius: 15px 15px 0 0 ;
+}
+
+
+.car2{
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+
+}
+
+.highway{
+  text-align: center;
+}
+
+.car-highway{
+  width: 1.5px;
+  position: absolute;
+}
+
+.car-ani{
+  position: relative;
+}
+
+.profile{
+  height: 40px !important;
+}
+
 
 
 ///* Mobile Phone section */
