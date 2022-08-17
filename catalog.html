@@ -1,0 +1,471 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Catalog</title>
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="">
+</head>
+<body class="bg-primary " >
+<!--navbar-->
+<section class="container  m-0 p-0 nav">
+    <div class="row  m-0 p-0">
+        <div class="col-12  m-0 p-0">
+            <nav class="navbar navbar-expand-lg bg-primary position-fixed top-0 w-100">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo-light.svg" alt="logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" href="catalog.html">Catalog</a>
+                            </li>
+
+                            <li class="nav-item dropdown mx-2 text-sm">
+                                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Account
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown mx-2 text-sm">
+                                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Vendor
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown mx-2 text-sm">
+                                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Pages
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="">
+                        <a href="#" class="btn btn-primary mx-2">
+                            <i class="bi bi-person"></i>
+                            Sign In</a>
+
+                        <a href="#" class="btn btn-secondary mx-2" >
+                            <i class="bi bi-plus"></i>
+                            Sell Car</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</section>
+
+<div class="container">
+    <div class="row min-vh-100">
+        <div class="col-lg-3 mt-5">
+            <div class="pt-5 mt-5">
+                <ul class="p-0">
+                    <li class="btn btn-light text-secondary nav-item ">
+                        <a href="#" class="nav-link active">Search New</a>
+                    </li>
+                    <li class="btn btn-secondary text-light nav-item mx-2">
+                        <a href="#" class="nav-link ">Search Used</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="border-line2 my-4"></div>
+
+            <!--            Selection-->
+            <div class="d-flex align-items-center justify-content-between mb-3">
+                <h5 class="fw-bold text-white m-0 ">Selection</h5>
+                <button class="btn text-white-50 fs-sm p-0" type="button">Clear all</button>
+            </div>
+            <div class="mx-0">
+
+                <div class="nav-item mb-2 d-inline-block me-2">
+                    <button class="nav-link rounded-pill btn btn-success px-2 display-6 text-white-50">Under 2019<i class="bi bi-x ms-2"></i></button>
+                </div>
+                <div class="nav-item mb-2 d-inline-block me-2">
+                    <button class="nav-link rounded-pill btn btn-success px-2 display-6 text-white-50">Crossover<i class="bi bi-x ms-2"></i></button>
+                </div>
+                <div class="nav-item mb-2  d-inline-block me-2">
+                    <button class="nav-link rounded-pill btn btn-success px-2 display-6 text-white-50" type="button">Sedan<i class="bi bi-x ms-2"></i></button>
+                </div>
+                <div class="nav-item mb-2  d-inline-block me-2">
+                    <button class="nav-link rounded-pill btn btn-success px-2 display-6 text-white-50" type="button">SUV<i class="bi bi-x ms-2"></i></button>
+                </div>
+                <div class="nav-item mb-2  d-inline-block me-2">
+                    <button class="nav-link rounded-pill btn btn-success px-2 display-6 text-white-50" type="button">Diesel<i class="bi bi-x ms-2"></i></button>
+                </div>
+                <div class="nav-item mb-2  d-inline-block me-2">
+                    <button class="nav-link rounded-pill btn btn-success px-2 display-6 text-white-50" type="button">Gasoline<i class="bi bi-x ms-2"></i></button>
+                </div>
+                <div class="nav-item mb-2  d-inline-block me-2">
+                    <button class="nav-link rounded-pill btn btn-success px-2 display-6 text-white-50" type="button">Hybrid<i class="bi bi-x ms-2"></i></button>
+                </div>
+            </div>
+
+            <div class="border-line2 my-4"></div>
+
+            <!--            Location-->
+            <div class="mb-4">
+                <h5 class="fw-bold text-white mb-3 ">Location</h5>
+                <select class="form-select bg-success light-bar text-light mb-2">
+                    <option value="">Select location</option>
+                    <option value="Chicago">Chicago</option>
+                    <option value="Dallas">Dallas</option>
+                    <option value="Los Angeles">Los Angeles</option>
+                    <option value="New York">New York</option>
+                    <option value="San Diego">San Diego</option>
+                </select>
+            </div>
+
+            <!--            Body-Type-->
+            <div class="my-4">
+                <h5 class="fw-bold text-white mb-3 ">Body Type</h5>
+                <div class="form-border">
+                    <div class="form-check form-check-light d-flex align-items-center mb-2">
+                        <input type="checkbox"  class="Sedan form-check-input me-2 " id="Sedan" name="Sedan" value="compare">
+                        <label for="Sedan" class="text-light fs-sm"> Sedan</label><br>
+                    </div>
+                    <div class="form-check form-check-light d-flex align-items-center mb-2">
+                        <input type="checkbox" class="SUV form-check-input me-2" id="SUV" name="SUV" value="compare">
+                        <label for="SUV" class="text-light fs-sm"> SUV</label><br>
+                    </div>
+                    <div class="form-check form-check-light d-flex align-items-center mb-2">
+                        <input type="checkbox" class="Wagon form-check-input me-2" id="Wagon" name="Wagon" value="compare">
+                        <label for="Wagon" class="text-light fs-sm"> Wagon</label><br>
+                    </div>
+                    <div class="form-check form-check-light d-flex align-items-center mb-2">
+                        <input type="checkbox" class="FamilyMPV form-check-input me-2" id="FamilyMPV" name="FamilyMPV" value="compare">
+                        <label for="FamilyMPV" class="text-light fs-sm"> Family MPV</label><br>
+                    </div>
+                    <div class="form-check form-check-light d-flex align-items-center mb-2">
+                        <input type="checkbox" class="Crossover form-check-input me-2" id="Crossover" name="Crossover" value="compare">
+                        <label for="Crossover" class="text-light fs-sm"> Crossover</label><br>
+                    </div>
+                    <div class="form-check form-check-light d-flex align-items-center mb-2">
+                        <input type="checkbox" class="Coupe form-check-input me-2" id="Coupe" name="Coupe" value="compare">
+                        <label for="Coupe" class="text-light fs-sm"> Coupe</label><br>
+                    </div>
+                    <div class="form-check form-check-light d-flex align-items-center mb-2">
+                        <input type="checkbox" class="Pickup form-check-input me-2" id="Pickup" name="Pickup" value="compare">
+                        <label for="Pickup" class="text-light fs-sm"> Pickup</label><br>
+                    </div>
+                    <div class="form-check form-check-light d-flex align-items-center mb-2">
+                        <input type="checkbox" class="SportCoupe form-check-input me-2" id="SportCoupe" name="SportCoupe" value="compare">
+                        <label for="SportCoupe" class="text-light fs-sm"> Sport Coupe</label><br>
+                    </div>
+                    <div class="form-check form-check-light d-flex align-items-center mb-2">
+                        <input type="checkbox" class="Compact form-check-input me-2" id="Compact" name="Compact" value="compare">
+                        <label for="Compact" class="text-light fs-sm"> Compact</label><br>
+                    </div>
+                    <div class="form-check form-check-light d-flex align-items-center mb-2">
+                        <input type="checkbox" class="Convertible form-check-input me-2" id="Convertible" name="Convertible" value="compare">
+                        <label for="Convertible" class="text-light fs-sm"> Convertible</label><br>
+                    </div>
+                </div>
+            </div>
+
+            <!--            Year-->
+            <div class="my-4 ">
+                <h5 class="fw-bold text-white mb-3 ">Years</h5>
+                <div class="row">
+                    <div class="col-4 ms-2 p-0">
+                        <select class="form-select bg-success light-bar text-light mb-2">
+                            <option value="">From</option>
+                            <option value="2021">2021</option>
+                            <option value="2020">2020</option>
+                            <option value="2019">2019</option>
+                            <option value="2018">2018</option>
+                            <option value="2017">2017</option>
+                            <option value="2016">2016</option>
+                            <option value="2015">2015</option>
+                            <option value="2014">2014</option>
+                            <option value="2013">2013</option>
+                            <option value="2012">2012</option>
+                        </select>
+                    </div>
+                    <div class="col-1">
+                        <div class="border-line2 mt-3 p-0"></div>
+                    </div>
+                    <div class="col-4 p-0">
+                        <select class="form-select bg-success light-bar text-light mb-2">
+                            <option value="">To</option>
+                            <option value="2021">2021</option>
+                            <option value="2020">2020</option>
+                            <option value="2019">2019</option>
+                            <option value="2018">2018</option>
+                            <option value="2017">2017</option>
+                            <option value="2016">2016</option>
+                            <option value="2015">2015</option>
+                            <option value="2014">2014</option>
+                            <option value="2013">2013</option>
+                            <option value="2012">2012</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <!--            Make & Model-->
+            <div class="my-4">
+                <h5 class="fw-bold text-white mb-3 ">Make & Model</h5>
+                <select class="form-select bg-success my-3 light-bar text-light mb-2">
+                    <option value="">Any Make</option>
+                    <option value="Audi">Audi</option>
+                    <option value="Infiniti">Infiniti</option>
+                    <option value="Honda">Honda</option>
+                    <option value="Hyundai">Hyundai</option>
+                    <option value="Lexus">Lexus</option>
+                    <option value="Mazda">Mazda</option>
+                    <option value="Mitsubishi">Mitsubishi</option>
+                    <option value="Mercedes-Benz">Mercedes-Benz</option>
+                    <option value="Nissan">Nissan</option>
+                    <option value="Opel">Opel</option>
+                    <option value="Renault">Renault</option>
+                    <option value="Toyota">Toyota</option>
+                </select>
+                <select class="form-select bg-success light-bar text-light mb-2">
+                    <option value="">Any Model</option>
+                    <option value="Altima">Altima</option>
+                    <option value="Juke">Juke</option>
+                    <option value="Leaf">Leaf</option>
+                    <option value="Maxima">Maxima</option>
+                    <option value="Micra">Micra</option>
+                    <option value="Murano">Murano</option>
+                    <option value="Note">Note</option>
+                    <option value="Pathfinder">Pathfinder</option>
+                    <option value="Patrol">Patrol</option>
+                </select>
+            </div>
+
+            <!--            Price-->
+            <div class="my-4">
+                <h5 class="fw-bold text-white mb-3 ">Price</h5>
+
+                <div class="range_container">
+                    <div class="sliders_control">
+                        <input id="fromSlider" type="range" value="10" min="0" max="100"/>
+                        <input id="toSlider" type="range" value="40" min="0" max="100"/>
+                    </div>
+                    <div class="form_control">
+                        <div class="form_control_container">
+                            <div class="form_control_container__time">Min</div>
+                            <input class="form_control_container__time__input  bg-success text-light mb-2" type="number" id="fromInput" value="10" min="0" max="100"/>
+                        </div>
+                        <div class="form_control_container">
+                            <div class="form_control_container__time">Max</div>
+                            <input class="form_control_container__time__input" type="number" id="toInput" value="40" min="0" max="100"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+        <div class="col-lg-9"></div>
+    </div>
+</div>
+
+
+
+<!--footer-->
+<section>
+
+    <div class="container-fluid mt-5  bg-success">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="d-flex justify-content-between py-5">
+                        <img src="images/logo-light.svg" class="h-100" alt="">
+                        <div class="text-light d-flex ">
+                            <div class="nav-item dropdown mx-5">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="bi bi-translate"></i>
+                                    Eng
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Deutsch</a></li>
+                                    <li><a class="dropdown-item" href="#">Francais</a></li>
+                                    <li><a class="dropdown-item" href="#">Espanol</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="bi bi-geo-alt"></i>
+                                    New York
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Chicago</a></li>
+                                    <li><a class="dropdown-item" href="#">Dallas</a></li>
+                                    <li><a class="dropdown-item" href="#">Los Angeles</a></li>
+                                    <li><a class="dropdown-item" href="#">San Diego</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="border-line2"></div>
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row  text-light py-5 ">
+                    <div class="col-12 col-md-12 col-lg-4">
+                        <h4 class="fw-bold">Subscribe to our newsletter</h4>
+                        <p class="text-white-50 fs-6">Don’t miss any relevant offers!</p>
+                        <div class="bg-primary py-2 my-3 px-2  rounded-3 text-center d-flex justify-content-between align-items-center" >
+                            <div class="">
+                                <input type="text" class="bg-primary border-0 ms-2" placeholder="Your Email"/>
+                            </div>
+                            <button class="btn btn-secondary m-0">
+                                <i class="bi bi-send display-6 text-white"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 col-lg-2 my-3 ps-4  text-light">
+                        <div class="mb-3">
+                            <h5>Buying & Selling</h5>
+                        </div>
+                        <div class="">
+                            <div class="my-2">
+                                <a class="text-white-50 text-decoration-none  fs-6">Find a car</a>
+                            </div>
+                            <div class="my-2">
+                                <a class="text-white-50 text-decoration-none  fs-6">Sell your car</a>
+                            </div>
+                            <div class="my-2">
+                                <a class="text-white-50 text-decoration-none  fs-6">Car dealers</a>
+                            </div>
+                            <div class="my-2">
+                                <a class="text-white-50 text-decoration-none  fs-6">Compare cars</a>
+                            </div>
+                            <div class="my-2">
+                                <a class="text-white-50 text-decoration-none  fs-6">Online car appraisal</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 col-lg-2  my-3 ps-4 text-light">
+                        <div class="mb-3">
+                            <h5>About</h5>
+                        </div>
+                        <div class="">
+                            <div class="my-2">
+                                <a class="text-white-50 text-decoration-none  fs-6">About Finder</a>
+                            </div>
+                            <div class="my-2">
+                                <a class="text-white-50 text-decoration-none  fs-6">Contact usr</a>
+                            </div>
+                            <div class="my-2">
+                                <a class="text-white-50 text-decoration-none  fs-6">FAQs & support</a>
+                            </div>
+                            <div class="my-2">
+                                <a class="text-white-50 text-decoration-none  fs-6">Mobile app</a>
+                            </div>
+                            <div class="my-2">
+                                <a class="text-white-50 text-decoration-none  fs-6">Blog</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 col-lg-2  my-3 ps-4 text-light">
+                        <div class="mb-3">
+                            <h5>Profile</h5>
+                        </div>
+                        <div class="">
+                            <div class="my-2">
+                                <a class="text-white-50 text-decoration-none  fs-6">My account</a>
+                            </div>
+                            <div class="my-2">
+                                <a class="text-white-50 text-decoration-none  fs-6">Wishlist</a>
+                            </div>
+                            <div class="my-2">
+                                <a class="text-white-50 text-decoration-none  fs-6">My listings</a>
+                            </div>
+                            <div class="my-2">
+                                <a class="text-white-50 text-decoration-none  fs-6">Add listing</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 col-lg-2 my-3 ps-4 ">
+                        <div class="">
+                            <i class="bi bi-phone text-secondary">
+                                <a href="#" class="text-light display-6 text-decoration-none">(406) 555-0120</a>
+                            </i>
+                        </div>
+                        <div class="my-3">
+                            <i class="bi bi-envelope text-secondary">
+                                <a href="#" class="text-light display-6 text-decoration-none">example@email.com</a>
+                            </i>
+                        </div>
+
+                        <div class="d-flex my-4 justify-content-between">
+                            <a href="#" class="me-3  " >
+                                <i class="bi bi-facebook fs-5 social"></i>
+                            </a>
+                            <a href="#" class="mx-3 " >
+                                <i class="bi bi-twitter fs-5  social"></i>
+                            </a>
+                            <a href="#" class="mx-3 " >
+                                <i class="bi bi-telegram fs-5 social"></i>
+                            </a>
+                            <a href="#" class="mx-3 ">
+                                <i class="bi bi-messenger fs-5 social"></i>
+                            </a>
+                        </div>
+
+
+                    </div>
+
+                    <div class="row mt-4 mx-3 flex-wrap">
+                        <div class="col-md-12 col-lg-8 d-flex justify-content-between mt-3">
+                            <p class="text-white-50 m-0 fs-6">Terms of use</p>
+                            <p class="text-white-50 m-0 fs-6">Privacy policy</p>
+                            <p class="text-white-50 m-0 fs-6">Accessibility statement</p>
+                            <p class="text-white-50 m-0 fs-6">Interest based ads</p>
+                        </div>
+                        <div class="col-md-12 col-lg-4 d-flex justify-content-center mt-3 p-0">
+                            <p class="text-white-50 m-0 fs-6">© All rights reserved. Made by Createx Studio</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script type="module" src="/main.js"></script>
+</body>
+</html>

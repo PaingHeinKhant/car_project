@@ -8,10 +8,10 @@
   <title>Car Project</title>
   <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
 </head>
-<body class="bg-primary ">
+<body class="bg-primary m-0 ">
 
 <!--navbar-->
-<div class="container-fluid m-0 p-0 ">
+<section class="container  m-0 p-0 nav">
   <div class="row  m-0 p-0">
     <div class="col-12  m-0 p-0">
       <nav class="navbar navbar-expand-lg bg-primary position-fixed top-0 w-100">
@@ -29,16 +29,8 @@
                 <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
               </li>
 
-              <li class="nav-item dropdown mx-2 text-sm">
-                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Catalog
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="catalog.html">Catalog</a>
               </li>
 
               <li class="nav-item dropdown mx-2 text-sm">
@@ -92,23 +84,22 @@
       </nav>
     </div>
   </div>
-</div>
+</section>
 
 <!--Hero section-->
-<section >
-  <div class="container-fluid hero-bg">
-    <div class="container pt-5 mt-4">
-      <div class="row min-vh-75  align-items-center">
-        <div class="col-12 col-lg-5">
+<section class="hero-bg " >
+    <div class="container pt-5 mt-4 ">
+      <div class="row hero-car align-items-center">
+        <div class="col-12 col-md-5 col-lg-5">
           <div class="mb-4">Latest News
             <h1 class="text-light display-3 fw-bolder mb-4" >Easy way to find the right car</h1>
             <p class="text-light  text-white-50">Finder is a leading digital marketplace for the  automotive industry that connects car shoppers
               with sellers.</p>
           </div>
         </div>
-        <div class="col-12 col-lg-7">
+        <div class="col-12 col-md-7 col-lg-7">
           <div class="pt-5 mt-4">
-            <img src="images/hero-img.png" class="pt-5 mt-5 w-75 hero-img"   alt="">
+            <img src="images/hero-img.png" class="pt-5 mt-5 hero-img"   alt="">
           </div>
         </div>
       </div>
@@ -124,18 +115,21 @@
           </li>
         </ul>
 
-        <form class="form-group mt-3 bg-success px-2 rounded-3 border border-secondary">
+        <form class="form-group mt-3 bg-success px-2 border-line">
           <div class="row g-0 d-flex justify-content-between ">
-            <div class=" col-lg-2 my-3 ml-3">
-              <i class="bi bi-search text-light mx-2"></i>
-              <input class="w-75 bg-success border-0 mt-1 "  type="text" name="keywords" placeholder="Keywords...">
+            <div class=" col-lg-2 ml-3">
+              <div class=" my-3 ">
+                <i class="bi bi-search text-light mx-2"></i>
+                <input class="w-75 bg-success border-0 mt-1 "  type="text" name="keywords" placeholder="Keywords...">
+              </div>
+              <div class="hr-mobile"></div>
             </div>
 
             <div class="col-lg-2 col-md-3 col-sm-6 p-0">
               <div class="input-group">
                 <hr class="hr-light">
                 <li class="nav-item dropdown mx-2 text-sm">
-                  <a class="nav-link dropdown-toggle text-white " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <a class="nav-link dropdown-toggle text-white-50 " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     <i class="bi bi-list"></i>
                     Make
                   </a>
@@ -146,17 +140,16 @@
                     <li><a class="dropdown-item" href="#">Something else here</a></li>
                   </ul>
                 </li>
+                <div class="hr-mobile"></div>
               </div>
 
             </div>
-
-
 
             <div class="col-lg-2 col-md-3 col-sm-6 p-0">
               <div class="input-group">
                 <hr class="hr-light">
                 <li class="nav-item dropdown mx-2 text-sm">
-                  <a class="nav-link dropdown-toggle text-white " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <a class="nav-link dropdown-toggle text-white-50 " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     <i class="bi bi-list"></i>
                     Model
                   </a>
@@ -167,15 +160,15 @@
                     <li><a class="dropdown-item" href="#">Something else here</a></li>
                   </ul>
                 </li>
+                <div class="hr-mobile"></div>
               </div>
             </div>
-
 
             <div class="col-lg-2 col-md-3 col-sm-6 p-0">
               <div class="input-group">
                 <hr class="hr-light">
                 <li class="nav-item dropdown mx-2 text-sm">
-                  <a class="nav-link dropdown-toggle text-white " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <a class="nav-link dropdown-toggle text-white-50 " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     <i class="bi bi-car-front"></i>
                     Body to type
                   </a>
@@ -187,14 +180,14 @@
                   </ul>
                 </li>
               </div>
+              <div class="hr-mobile"></div>
             </div>
 
-
-            <div class="col-lg-2 col-md-3 col-sm-6 p-0">
+            <div class="col-lg-2 col-md-3 col-sm-6 p-0 ">
               <div class="input-group">
                 <hr class="hr-light">
                 <li class="nav-item dropdown mx-2 text-sm">
-                  <a class="nav-link dropdown-toggle text-white " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <a class="nav-link dropdown-toggle text-white-50 " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     <i class="bi bi-map"></i>
                     Location
                   </a>
@@ -206,21 +199,19 @@
                   </ul>
                 </li>
               </div>
+              <div class="hr-mobile"></div>
             </div>
 
             <div class="col-lg-2 my-3">
               <button class="btn btn-secondary m-0 w-100" type="submit">Search</button>
             </div>
-
           </div>
         </form>
     </div>
-  </div>
 </section>
 
 <!--Popular Car type-->
-<section>
-  <div class="container">
+<section class="container ">
     <div class="row min-vh-75">
       <div class="col-12 mt-5 pt-5">
        <div class="d-flex justify-content-between align-items-center">
@@ -229,67 +220,64 @@
        </div>
       </div>
     </div>
-    <div class="row d-flex justify-content-between my-5 ">
+    <div class="row d-flex my-5 ">
       <!--      car items-->
-      <div class="col-6 col-lg-2 ">
+      <div class="col-6 col-md-3 col-lg-2  p-3 m-lg-3">
         <a href="#" >
           <img src="images/sedan.svg" class="w-100"  alt="">
         </a>
         <p class="text-light fw-bolder text-center">Sendan</p>
       </div>
-      <div class="col-6 col-lg-2 ">
+      <div class="col-6 col-md-3 col-lg-2  p-3 m-lg-3">
         <a href="#" >
           <img src="images/suv.svg" class="w-100"  alt="">
         </a>
         <p class="text-light fw-bolder text-center">Suv</p>
       </div>
-      <div class="col-6 col-lg-2 ">
+      <div class="col-6 col-md-3 col-lg-2  p-3 m-lg-3">
         <a href="#" >
           <img src="images/sedan.svg" class="w-100"  alt="">
         </a>
         <p class="text-light fw-bolder text-center">Sendan</p>
       </div>
-      <div class="col-6 col-lg-2 ">
+      <div class="col-6 col-md-3 col-lg-2  p-3 m-lg-3">
         <a href="#" >
           <img src="images/sedan.svg" class="w-100"  alt="">
         </a>
         <p class="text-light fw-bolder text-center">Sendan</p>
       </div>
-      <div class="col-6 col-lg-2 ">
+      <div class="col-6 col-md-3 col-lg-2 p-3 m-lg-3">
         <a href="#" >
           <img src="images/sedan.svg" class="w-100"  alt="">
         </a>
         <p class="text-light fw-bolder text-center">Sendan</p>
       </div>
-    </div>
-
-    <div class="row d-flex justify-content-between my-5">
       <!--      car items-->
-      <div class="col-6 col-lg-2 ">
+      <div class="col-6 col-md-3 col-lg-2  p-3 m-lg-3">
         <a href="#" >
           <img src="images/pickup.svg" class="w-100"  alt="">
         </a>
         <p class="text-light fw-bolder text-center">Pickup</p>
       </div>
-      <div class="col-6 col-lg-2 ">
+      <div class="col-6 col-md-3 col-lg-2  p-3 m-lg-3">
         <a href="#" >
           <img src="images/sport.svg" class="w-100"  alt="">
         </a>
         <p class="text-light fw-bolder text-center">Sport</p>
       </div>
-      <div class="col-6 col-lg-2 ">
+      <div class="col-6 col-md-3 col-lg-2  p-3 m-lg-3">
         <a href="#" >
           <img src="images/compact.svg" class="w-100"  alt="">
         </a>
         <p class="text-light fw-bolder text-center">Compact</p>
       </div>
-      <div class="col-6 col-lg-2 ">
+      <div class="col-6 col-md-3 col-lg-2  p-3 m-lg-3">
         <a href="#" >
           <img src="images/convertible.svg" class="w-100"  alt="">
         </a>
         <p class="text-light fw-bolder text-center">Convertible</p>
       </div>
-      <div class="col-6 col-lg-2 ">
+      <div class="col-6 col-md-3 col-lg-2  p-3 m-lg-3">
         <a href="#" >
           <img src="images/crossover.svg" class="w-100"  alt="">
         </a>
@@ -298,14 +286,12 @@
     </div>
 
 
-  </div>
-</section>
+  </section>
 
 <!--Top offers-->
-<section>
-  <div class="container ">
+<section class="container  ">
     <div class="row">
-      <div class="col-12 mt-5 pt-5">
+      <div class="col-12 mt-5 pt-5  ">
         <div class="d-flex justify-content-between align-items-center">
           <h3 class="text-light fw-bold">Top Offers</h3>
           <a href="#" class="text-light text-decoration-none">View all Offer<i class="bi bi-arrow-right text-light mx-2"></i></a>
@@ -313,172 +299,193 @@
       </div>
     </div>
     <div class="row my-5">
-      <div class="col-12 col-lg-6">
-
-        <div class=" ">
-          <div class="card border border-0 rounded-3 bg-success ">
-
+      <div class="col-12 col-lg-5 mx-3 card top-offer-first border border-0 rounded-3 bg-success  p-0 ">
             <div class="photo">
               <div class="text">
-                <span class="badge bg-secondary">New</span>
-                <span class="badge bg-warning ">Certified</span>
+                <span class="badge bg-secondary mb-2">New</span>
+                <span class="badge bg-danger d-block ">Certified</span>
               </div>
-
-              <button class="btn-light rounded-circle heart" type="button" data-bs-original-title="Add to Wishlist" aria-label="Add to Wishlist">
-                <i class="bi bi-heart"></i>
-              </button>
-
-
-
               <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
 
-                <div class="carousel-inner position-relative main-car1 ">
-                  <div class="carousel-item active">
-                    <img src="images/car1.jpg" class="d-block w-100 " >
+                <div class="carousel-inner main-car1  ">
+                  <div class="carousel-item active ">
+                    <img src="images/car1.jpg" class="image w-q"  >
+                    <div class="middle">
+                      <button class="btn-light rounded-circle heart border-0" type="button" data-bs-original-title="Add to Wishlist" aria-label="Add to Wishlist">
+                        <i class="bi bi-heart fs-5 text-secondary "></i>
+                      </button>
+                    </div>
+
                   </div>
-                  <div class="carousel-item">
-                    <img src="images/car1.jpg" class="d-block w-100  " alt="...">
+                  <div class="carousel-item ">
+                    <img src="images/car1.jpg" class="image w-q"  >
+                    <div class="middle">
+                      <button class="btn-light rounded-circle heart border-0" type="button" data-bs-original-title="Add to Wishlist" aria-label="Add to Wishlist">
+                        <i class="bi bi-heart fs-5 text-secondary "></i>
+                      </button>
+                    </div>
+
                   </div>
-                  <div class="carousel-item">
-                    <img src="images/car1.jpg" class="d-block w-100 " alt="...">
+                  <div class="carousel-item ">
+                    <img src="images/car1.jpg" class="image w-q"  >
+                    <div class="middle">
+                      <button class="btn-light rounded-circle heart border-0" type="button" data-bs-original-title="Add to Wishlist" aria-label="Add to Wishlist">
+                        <i class="bi bi-heart fs-5 text-secondary "></i>
+                      </button>
+                    </div>
+
                   </div>
+
+                    <button class="carousel-control-prev col-btn" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="bi bi-arrow-left-circle fs-3" aria-hidden="true"></span>
+                    </button>
+                    <button class="carousel-control-next col-btn" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="bi bi-arrow-right-circle fs-3" aria-hidden="true"></span>
+                    </button>
+
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                  <span class="bi bi-arrow-left-circle fs-3" aria-hidden="true"></span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                  <span class="bi bi-arrow-right-circle fs-3" aria-hidden="true"></span>
-                </button>
+
               </div>
             </div>
-
-
-
-            <div class="card-body  ">
-              <div class="d-flex justify-content-between">
-                <p class="text-light display-6 ">2015</p>
-               <div class="form-check form-check-light">
-                 <input type="checkbox" class="compare" id="compare" name="compare" value="compare">
-                 <label for="compare" class="text-light display-6"> Compare</label><br>
-               </div>
+            <div class="card-body px-3">
+            <div class="d-flex justify-content-between align-items-center mb-2">
+              <p class="text-light fs-sm m-0 ">2015</p>
+              <div class="form-check form-check-light">
+                <input type="checkbox" class="compare11 form-check-input mx-2" id="compare11" name="compare1" value="compare">
+                <label for="compare11" class="text-light fs-sm p-0"> Compare</label><br>
               </div>
-              <a href="#" class="text-white-50 fw-bolder text-decoration-none ">Ford Truck Lifted</a>
-              <p class="fw-bold text-secondary my-1">$24,000</p>
+            </div>
+            <div class="border-line2 my-3 pb-3">
+              <a href="#" class="text-white-50 fw-bolder text-decoration-none ">Mercedes Benz Convertible Coupe</a>
+              <p class="fw-bold text-secondary">$25,800</p>
               <i class="bi bi-geo-alt-fill text-light"></i>
-              <span class="text-light display-6">Chicago</span>
+              <span class="text-light fs-sm  ">New York</span>
+            </div>
 
-              <div class="card-footer">
-                <div class="border-top border-secondary py-3">
-                  <div class="row g-2">
+            <div class=" ">
+              <div class="row g-2 mt-5">
 
-                    <div class="col me-sm-2">
-                      <div class="bg-primary rounded text-center w-100 h-100 p-2">
-                        <i class="bi bi-markdown d-block h4 text-light mb-0 mx-center">
-                        </i><span class="fs-xs text-light">48K mi</span>
-                      </div>
-                    </div>
-
-                    <div class="col me-sm-2">
-                      <div class="bg-primary rounded text-center w-100 h-100 p-2">
-                        <i class="bi bi-gear-wide-connected d-block h4 text-light mb-0 mx-center">
-                        </i><span class="fs-xs text-light">Automatic</span>
-                      </div>
-                    </div>
-
-                    <div class="col">
-                      <div class="bg-primary rounded text-center w-100 h-100 p-2">
-                        <i class="bi bi-fuel-pump d-block h4 text-light mb-0 mx-center">
-                        </i><span class="fs-xs text-light">Gasoline</span>
-                      </div>
-                    </div>
-
+                <div class="col me-sm-2">
+                  <div class="bg-primary rounded text-center w-100 h-100 p-2">
+                    <i class="bi bi-markdown d-block h5 text-light mb-0 mx-center">
+                    </i><span class="text-light display-6">48K mi</span>
                   </div>
                 </div>
+
+                <div class="col me-sm-2">
+                  <div class="bg-primary rounded text-center w-100 h-100 p-2">
+                    <i class="bi bi-gear-wide-connected d-block h5 text-light mb-0 mx-center">
+                    </i><span class="display-6 text-light">Automatic</span>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="bg-primary rounded text-center w-100 h-100 p-2">
+                    <i class="bi bi-fuel-pump d-block h5 text-light mb-0 mx-center">
+                    </i><span class="display-6 text-light">Gasoline</span>
+                  </div>
+                </div>
+
               </div>
             </div>
+
+          </div>
 
 
           </div>
-        </div>
+      <div class="col-12 col-lg-6 p-0">
 
-      </div>
-      <div class="col-12 col-lg-6">
-
-        <div class="card bg-primary flex-row rounded-3 mb-4" >
+        <div class="card bg-success flex-row card-mobile rounded-3 mb-4" >
 
           <div class="photo">
             <div class="text">
               <span class="badge bg-info">Used</span>
             </div>
 
-            <button class="btn-light rounded-circle heart" type="button" data-bs-original-title="Add to Wishlist" aria-label="Add to Wishlist">
-              <i class="bi bi-heart"></i>
-            </button>
 
+            <div id="carouselExampleControls1" class="carousel slide photo-obj-mobile" data-bs-ride="carousel"  >
 
+              <div class="carousel-inner  main-car1  ">
+                <div class="carousel-item active ">
+                  <img src="images/car2.jpg" class="car2 w-q"  >
+                  <div class="middle">
+                    <button class="btn-light rounded-circle heart border-0" type="button" data-bs-original-title="Add to Wishlist" aria-label="Add to Wishlist">
+                      <i class="bi bi-heart fs-5 text-secondary "></i>
+                    </button>
+                  </div>
 
-            <div id="carouselControls" class="carousel slide overflow-hidden object-fit" data-bs-ride="carousel">
-
-              <div class="carousel-inner position-relative ">
-                <div class="carousel-item active">
-                  <img src="images/car2.jpg" class="d-block  car2" >
                 </div>
-                <div class="carousel-item">
-                  <img src="images/car2.jpg" class="d-block  car2 " alt="...">
+                <div class="carousel-item ">
+                  <img src="images/car2.jpg" class="car2 w-q"  >
+                  <div class="middle">
+                    <button class="btn-light rounded-circle heart border-0" type="button" data-bs-original-title="Add to Wishlist" aria-label="Add to Wishlist">
+                      <i class="bi bi-heart fs-5 text-secondary "></i>
+                    </button>
+                  </div>
+
                 </div>
-                <div class="carousel-item">
-                  <img src="images/car2.jpg" class="d-block car2 " alt="...">
+                <div class="carousel-item ">
+                  <img src="images/car2.jpg" class="car2 w-q"  >
+                  <div class="middle">
+                    <button class="btn-light rounded-circle heart border-0" type="button" data-bs-original-title="Add to Wishlist" aria-label="Add to Wishlist">
+                      <i class="bi bi-heart fs-5 text-secondary "></i>
+                    </button>
+                  </div>
+
                 </div>
+
+                <button class="carousel-control-prev col-btn" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="prev">
+                  <span class="bi bi-arrow-left-circle fs-3" aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next col-btn" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="next">
+                  <span class="bi bi-arrow-right-circle fs-3" aria-hidden="true"></span>
+                </button>
+
               </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
-                <span class="bi bi-arrow-left-circle fs-3" aria-hidden="true"></span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselControls" data-bs-slide="next">
-                <span class="bi bi-arrow-right-circle fs-3" aria-hidden="true"></span>
-              </button>
+
             </div>
           </div>
 
-          <div class="card-body  ">
-            <div class="d-flex justify-content-between">
-              <p class="text-light display-6 ">2015</p>
-              <div class="form-check form-check-light">
-                <input type="checkbox" class="compare" id="compare" name="compare" value="compare">
-                <label for="compare" class="text-light display-6"> Compare</label><br>
+          <div class="card-body px-3 pt-3 pb-2 ">
+            <div class="">
+              <div class="d-flex justify-content-between align-items-center mb-2">
+                <p class="text-light fs-sm m-0 ">2015</p>
+                <div class="form-check form-check-light">
+                  <input type="checkbox" class="compare12 form-check-input mx-2" id="compare12" name="compare1" value="compare">
+                  <label for="compare12" class="text-light fs-sm p-0"> Compare</label><br>
+                </div>
+              </div>
+              <div class="border-line2 mb-3 pb-2">
+                <a href="#" class="text-white-50 fw-bolder text-decoration-none ">Mercedes Benz Convertible Coupe</a>
+                <p class="fw-bold text-secondary mb-2">$25,800</p>
+                <i class="bi bi-geo-alt-fill text-light"></i>
+                <span class="text-light fs-sm  ">New York</span>
               </div>
             </div>
-            <a href="#" class="text-white-50 fw-bolder text-decoration-none ">Mercedes Benz Convertible Coupe</a>
-            <p class="fw-bold text-secondary">$25,800</p>
-            <i class="bi bi-geo-alt-fill text-light"></i>
-            <span class="text-light display-6">New York</span>
+            <div class=" ">
+              <div class="row g-2 ">
 
-
-            <div class="card-footer ">
-              <div class="border-top border-secondary py-1">
-                <div class="row g-2">
-
-                  <div class="col me-sm-2">
-                    <div class="bg-primary rounded text-center w-100 h-100 p-2">
-                      <i class="bi bi-markdown d-block h5 text-light mb-0 mx-center">
-                      </i><span class="text-light display-6">48K mi</span>
-                    </div>
+                <div class="col me-sm-2">
+                  <div class="bg-primary rounded text-center w-100 h-100 p-2">
+                    <i class="bi bi-markdown d-block h5 text-light mb-0 mx-center">
+                    </i><span class="text-light display-5">48K mi</span>
                   </div>
-
-                  <div class="col me-sm-2">
-                    <div class="bg-primary rounded text-center w-100 h-100 p-2">
-                      <i class="bi bi-gear-wide-connected d-block h5 text-light mb-0 mx-center">
-                      </i><span class="display-6 text-light">Automatic</span>
-                    </div>
-                  </div>
-
-                  <div class="col">
-                    <div class="bg-primary rounded text-center w-100 h-100 p-2">
-                      <i class="bi bi-fuel-pump d-block h5 text-light mb-0 mx-center">
-                      </i><span class="display-6 text-light">Gasoline</span>
-                    </div>
-                  </div>
-
                 </div>
+
+                <div class="col me-sm-2">
+                  <div class="bg-primary rounded text-center w-100 h-100 p-2">
+                    <i class="bi bi-gear-wide-connected d-block h5 text-light mb-0 mx-center">
+                    </i><span class="display-5 text-light">Automatic</span>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="bg-primary rounded text-center w-100 h-100 p-2">
+                    <i class="bi bi-fuel-pump d-block h5 text-light mb-0 mx-center">
+                    </i><span class="display-5 text-light">Gasoline</span>
+                  </div>
+                </div>
+
               </div>
             </div>
           </div>
@@ -486,81 +493,97 @@
 
         </div>
 
-        <div class="card bg-primary flex-row rounded-3" >
+        <div class="card bg-success flex-row  card-mobile rounded-3 " >
 
           <div class="photo">
             <div class="text">
-              <span class="badge bg-danger">New</span>
+              <span class="badge bg-info">Used</span>
             </div>
 
-            <button class="btn-light rounded-circle heart" type="button" data-bs-original-title="Add to Wishlist" aria-label="Add to Wishlist">
-              <i class="bi bi-heart"></i>
-            </button>
 
+            <div id="carouselExampleControls2" class="carousel slide overflow-hidden  photo-obj-mobile" data-bs-ride="carousel"  >
 
+              <div class="carousel-inner position-relative  main-car1  ">
+                <div class="carousel-item active ">
+                  <img src="images/car3.jpg" class="car2 w-q"  >
+                  <div class="middle">
+                    <button class="btn-light rounded-circle heart border-0" type="button" data-bs-original-title="Add to Wishlist" aria-label="Add to Wishlist">
+                      <i class="bi bi-heart fs-5 text-secondary "></i>
+                    </button>
+                  </div>
 
-            <div id="carouselControl" class="carousel slide overflow-hidden object-fit" data-bs-ride="carousel">
-
-              <div class="carousel-inner position-relative ">
-                <div class="carousel-item active">
-                  <img src="images/car3.jpg" class="d-block  car2" >
                 </div>
-                <div class="carousel-item">
-                  <img src="images/car3.jpg" class="d-block  car2 " alt="...">
+                <div class="carousel-item ">
+                  <img src="images/car3.jpg" class="car2 w-q"  >
+                  <div class="middle">
+                    <button class="btn-light rounded-circle heart border-0" type="button" data-bs-original-title="Add to Wishlist" aria-label="Add to Wishlist">
+                      <i class="bi bi-heart fs-5 text-secondary "></i>
+                    </button>
+                  </div>
+
                 </div>
-                <div class="carousel-item">
-                  <img src="images/car3.jpg" class="d-block car2 " alt="...">
+                <div class="carousel-item ">
+                  <img src="images/car3.jpg" class="car2 w-q"  >
+                  <div class="middle">
+                    <button class="btn-light rounded-circle heart border-0" type="button" data-bs-original-title="Add to Wishlist" aria-label="Add to Wishlist">
+                      <i class="bi bi-heart fs-5 text-secondary "></i>
+                    </button>
+                  </div>
+
                 </div>
+
+                <button class="carousel-control-prev col-btn" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
+                  <span class="bi bi-arrow-left-circle fs-3" aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next col-btn" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="next">
+                  <span class="bi bi-arrow-right-circle fs-3" aria-hidden="true"></span>
+                </button>
+
               </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselControl" data-bs-slide="prev">
-                <span class="bi bi-arrow-left-circle fs-3" aria-hidden="true"></span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselControl" data-bs-slide="next">
-                <span class="bi bi-arrow-right-circle fs-3" aria-hidden="true"></span>
-              </button>
+
             </div>
           </div>
 
-          <div class="card-body  ">
-            <div class="d-flex justify-content-between">
-              <p class="text-light display-6 ">2018</p>
-              <div class="form-check form-check-light">
-                <input type="checkbox" class="compare"  name="compare" value="compare">
-                <label for="compare" class="text-light display-6"> Compare</label><br>
+          <div class="card-body px-3 pt-3 pb-2 ">
+            <div class="">
+              <div class="d-flex justify-content-between align-items-center mb-2">
+                <p class="text-light fs-sm m-0 ">2015</p>
+                <div class="form-check form-check-light">
+                  <input type="checkbox" class="compare12 form-check-input mx-2" id="compare12" name="compare1" value="compare">
+                  <label for="compare12" class="text-light fs-sm p-0"> Compare</label><br>
+                </div>
+              </div>
+              <div class="border-line2 mb-3 pb-2">
+                <a href="#" class="text-white-50 fw-bolder text-decoration-none ">Mercedes Benz Convertible Coupe</a>
+                <p class="fw-bold text-secondary mb-2">$25,800</p>
+                <i class="bi bi-geo-alt-fill text-light"></i>
+                <span class="text-light fs-sm  ">New York</span>
               </div>
             </div>
-            <a href="#" class="text-white-50 fw-bolder text-decoration-none ">BMW 640 XI Gran Turismo</a>
-            <p class="fw-bold text-secondary">$43,500</p>
-            <i class="bi bi-geo-alt-fill text-light"></i>
-            <span class="text-light display-6">San Francisco</span>
+            <div class=" ">
+              <div class="row g-2 ">
 
-
-            <div class="card-footer ">
-              <div class="border-top border-secondary py-1">
-                <div class="row g-2">
-
-                  <div class="col me-sm-2">
-                    <div class="bg-primary rounded text-center w-100 h-100 p-2">
-                      <i class="bi bi-markdown d-block h5 text-light mb-0 mx-center">
-                      </i><span class="text-light display-6">10K mi</span>
-                    </div>
+                <div class="col me-sm-2">
+                  <div class="bg-primary rounded text-center w-100 h-100 p-2">
+                    <i class="bi bi-markdown d-block h5 text-light mb-0 mx-center">
+                    </i><span class="text-light display-5">48K mi</span>
                   </div>
-
-                  <div class="col me-sm-2">
-                    <div class="bg-primary rounded text-center w-100 h-100 p-2">
-                      <i class="bi bi-gear-wide-connected d-block h5 text-light mb-0 mx-center">
-                      </i><span class="display-6 text-light">Automatic</span>
-                    </div>
-                  </div>
-
-                  <div class="col">
-                    <div class="bg-primary rounded text-center w-100 h-100 p-2">
-                      <i class="bi bi-fuel-pump d-block h5 text-light mb-0 mx-center">
-                      </i><span class="display-6 text-light">Gasoline</span>
-                    </div>
-                  </div>
-
                 </div>
+
+                <div class="col me-sm-2">
+                  <div class="bg-primary rounded text-center w-100 h-100 p-2">
+                    <i class="bi bi-gear-wide-connected d-block h5 text-light mb-0 mx-center">
+                    </i><span class="display-5 text-light">Automatic</span>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="bg-primary rounded text-center w-100 h-100 p-2">
+                    <i class="bi bi-fuel-pump d-block h5 text-light mb-0 mx-center">
+                    </i><span class="display-5 text-light">Gasoline</span>
+                  </div>
+                </div>
+
               </div>
             </div>
           </div>
@@ -574,49 +597,47 @@
 
 <!--paternal company logos-->
     <div class="row">
-      <div class="col-3 col-lg-1 my-5">
-        <img src="images/lexus.svg" alt="">
+      <div class="col-3 col-md-2 col-lg-1 my-5 ">
+        <img src="images/lexus.svg"   alt="">
       </div>
-      <div class="col-3 col-lg-1 my-5">
+      <div class="col-3 col-md-2 col-lg-1 my-5">
         <img src="images/audi.svg" alt="">
       </div>
-      <div class="col-3 col-lg-1 my-5">
+      <div class="col-3 col-md-2 col-lg-1 my-5">
         <img src="images/hyundai.svg" alt="">
       </div>
-      <div class="col-3 col-lg-1 my-5">
+      <div class="col-3 col-md-2 col-lg-1 my-5">
         <img src="images/infiniti.svg" alt="">
       </div>
-      <div class="col-3 col-lg-1 my-5">
+      <div class="col-3 col-md-2 col-lg-1 my-5">
         <img src="images/mazda.svg" alt="">
       </div>
-      <div class="col-3 col-lg-1 my-5">
+      <div class="col-3 col-md-2 col-lg-1 my-5">
         <img src="images/mercedes.svg" alt="">
       </div>
-      <div class="col-3 col-lg-1 my-5">
+      <div class="col-3 col-md-2 col-lg-1 my-5">
         <img src="images/mitsubishi.svg" alt="">
       </div>
-      <div class="col-3 col-lg-1 my-5">
+      <div class="col-3 col-md-2 col-lg-1 my-5">
         <img src="images/opel.svg" alt="">
       </div>
-      <div class="col-3 col-lg-1 my-5">
+      <div class="col-3 col-md-2 col-lg-1 my-5">
         <img src="images/nissan.svg" alt="">
       </div>
-      <div class="col-3 col-lg-1 my-5">
+      <div class="col-3 col-md-2 col-lg-1 my-5">
         <img src="images/honda.svg" alt="">
       </div>
-      <div class="col-3 col-lg-1 my-5">
+      <div class="col-3 col-md-2 col-lg-1 my-5">
         <img src="images/renault.svg" alt="">
       </div>
-      <div class="col-3 col-lg-1 my-5">
+      <div class="col-3 col-md-2 col-lg-1 my-5">
         <img src="images/toyota.svg" alt="">
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
 <!--What sets Finder apart?-->
-<section>
-  <div class="container">
+<section class="container ">
     <div class="row">
       <div class="col-12 mt-5 pt-5">
         <div class="d-flex justify-content-between align-items-center">
@@ -625,10 +646,10 @@
         </div>
 
 
-        <div class=" mt-5 pt-5 d-flex justify-content-between">
-          <div class="col-12 col-lg-5">
+        <div class=" row mt-5 pt-5 d-flex justify-content-between align-item-center" >
+          <div class="col-12 col-md-5 col-lg-5 mt-3">
             <!--        Over 1 Million Listings-->
-            <div class="text-light text-lg-end my-4 d-flex">
+            <div class="text-light text-lg-end my-4 d-flex flexrow-reverse">
               <div class="">
                 <h5 class="fw-bold">Over 1 Million Listings</h5>
                 <p class="fs-6 text-white-50">That’s more than you’ll find on any other major online automotive marketplace in the USA.</p>
@@ -639,10 +660,10 @@
 
             </div>
             <!--        Personalized Search-->
-            <div class="text-light text-lg-end my-4 d-flex">
+            <div class="text-light text-lg-end my-4 d-flex flexrow-reverse">
               <div class="">
                 <h5 class="fw-bold">Personalized Search</h5>
-                <p class="fs-6 text-white-50">Our powerful search makes it easy to personalize your results so you only see the cars and features you care about.</p>
+                <p class="fs-6 text-white-50">Our powerful search makes it easy powerful search makes  to personalize your results so you only see the cars and features you care about.</p>
               </div>
               <div class="">
                 <i class="bi bi-search fs-5 text-secondary mx-3"></i>
@@ -650,7 +671,7 @@
 
             </div>
             <!--        Non-Stop Innovation-->
-            <div class="text-light text-lg-end my-4 d-flex">
+            <div class="text-light text-lg-end my-4 d-flex flexrow-reverse">
               <div class="">
                 <h5 class="fw-bold">Non-Stop Innovation</h5>
                 <p class="fs-6 text-white-50">Our team is constantly developing new features that make the process of buying and selling a car simpler.</p>
@@ -661,19 +682,19 @@
 
             </div>
           </div>
-          <div class="col-12 col-lg-2">
+          <div class="col-12 col-md-2 col-lg-2">
 
-            <div class="">
+            <div class="car">
               <div class="highway">
-                <img src="images/road-line.svg" class="car-highway" alt="">
+                <img src="images/road-line.svg" class="car-highway"  alt="">
               </div>
-              <div class="text-center">
-                <img src="images/car.svg" class="w-25 car-ani" alt="">
+              <div class="text-center" >
+                <img src="images/car.svg" class="w-75 car-ani" id="carAni" alt="">
               </div>
             </div>
 
           </div>
-          <div class="col-12 col-lg-5">
+          <div class="col-12 col-md-5  col-lg-5 mt-3">
             <!--       Valuable Insights-->
             <div class="text-light text-lg-start my-4 d-flex">
               <div class="">
@@ -715,15 +736,12 @@
       </div>
 
     </div>
-      </div>
-
-</section>
-
+      </section>
 
 <!--Latest cars-->
-<section>
-  <div class="container">
-    <div class="row mt-5 pt-5 min-vh-100 ">
+<section class="container ">
+    <div class="row">
+
       <div class="col-12 mt-5 pt-5">
         <div class="d-flex justify-content-between my-5 align-items-center">
           <h3 class="text-light fw-bold">Latest cars</h3>
@@ -742,66 +760,73 @@
           </div>
         </div>
 
+
         <div class=" multiple-items my-5 pb-5 mx-auto">
+
+
           <div class="col-12 col-lg-3">
             <div class="card border border-0 rounded-3 bg-success mx-3">
 
               <div class="photo">
                 <div class="text">
-                  <span class="badge bg-secondary">New</span>
-                  <span class="badge bg-warning ">Certified</span>
+                  <span class="badge bg-secondary my-2">New</span>
+                  <span class="badge bg-warning d-block ">Certified</span>
                 </div>
 
-                <button class="btn-light rounded-circle heart" type="button" data-bs-original-title="Add to Wishlist" aria-label="Add to Wishlist">
-                  <i class="bi bi-heart"></i>
-                </button>
-
-                <img src="images/car4.jpg" class="w-100 main-car1"  alt="">
-              </div>
-
-
-
-              <div class="card-body ">
-                <div class="d-flex justify-content-between">
-                  <p class="text-light display-6 ">2015</p>
-                  <div class="form-check form-check-light">
-                    <input type="checkbox" class="compare" id="compare" name="compare" value="compare">
-                    <label for="compare" class="text-light display-6"> Compare</label><br>
-                  </div>
-                </div>
-                <a href="#" class="text-white-50 fw-bolder text-decoration-none ">Ford Truck Lifted</a>
-                <p class="fw-bold text-secondary my-1">$24,000</p>
-                <i class="bi bi-geo-alt-fill text-light"></i>
-                <span class="text-light display-6">Chicago</span>
-
-                <div class="card-footer">
-                  <div class="border-top border-secondary py-3">
-                    <div class="row g-2">
-
-                      <div class="col me-sm-2">
-                        <div class="bg-primary rounded text-center w-100 h-100 p-2">
-                          <i class="bi bi-markdown d-block h4 text-light mb-0 mx-center">
-                          </i><span class="fs-xs text-light">48K mi</span>
-                        </div>
-                      </div>
-
-                      <div class="col me-sm-2">
-                        <div class="bg-primary rounded text-center w-100 h-100 p-2">
-                          <i class="bi bi-gear-wide-connected d-block h4 text-light mb-0 mx-center">
-                          </i><span class="fs-xs text-light">Automatic</span>
-                        </div>
-                      </div>
-
-                      <div class="col">
-                        <div class="bg-primary rounded text-center w-100 h-100 p-2">
-                          <i class="bi bi-fuel-pump d-block h4 text-light mb-0 mx-center">
-                          </i><span class="fs-xs text-light">Gasoline</span>
-                        </div>
-                      </div>
-
+                <div class="carousel-inner">
+                  <div class="carousel-item active ">
+                    <img src="images/car4.jpg" class="car-latest w-q"  >
+                    <div class="middle">
+                      <button class="btn-light rounded-circle heart border-0" type="button" data-bs-original-title="Add to Wishlist" aria-label="Add to Wishlist">
+                        <i class="bi bi-heart fs-5 text-secondary "></i>
+                      </button>
                     </div>
+
                   </div>
                 </div>
+              </div>
+              <div class="card-body px-3">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                  <p class="text-light fs-sm m-0 ">2015</p>
+                  <div class="form-check form-check-light">
+                    <input type="checkbox" class="compare5 form-check-input mx-2" id="compare5" name="compare1" value="compare">
+                    <label for="compare5" class="text-light fs-sm p-0"> Compare</label><br>
+                  </div>
+                </div>
+                <div class="border-line2 my-3 pb-3">
+                  <a href="#" class="text-white-50 fw-bolder text-decoration-none ">Mercedes Benz Convertible Coupe</a>
+                  <p class="fw-bold text-secondary">$25,800</p>
+                  <i class="bi bi-geo-alt-fill text-light"></i>
+                  <span class="text-light fs-sm  ">New York</span>
+                </div>
+
+                <div class=" ">
+                  <div class="row g-2 mt-3">
+
+                    <div class="col me-sm-2">
+                      <div class="bg-primary rounded text-center w-100 h-100 p-2">
+                        <i class="bi bi-markdown d-block h5 text-light mb-0 mx-center">
+                        </i><span class="text-light display-6">48K mi</span>
+                      </div>
+                    </div>
+
+                    <div class="col me-sm-2">
+                      <div class="bg-primary rounded text-center w-100 h-100 p-2">
+                        <i class="bi bi-gear-wide-connected d-block h5 text-light mb-0 mx-center">
+                        </i><span class="display-6 text-light">Automatic</span>
+                      </div>
+                    </div>
+
+                    <div class="col">
+                      <div class="bg-primary rounded text-center w-100 h-100 p-2">
+                        <i class="bi bi-fuel-pump d-block h5 text-light mb-0 mx-center">
+                        </i><span class="display-6 text-light">Gasoline</span>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
               </div>
 
 
@@ -812,60 +837,64 @@
 
               <div class="photo">
                 <div class="text">
-                  <span class="badge bg-secondary">New</span>
-                  <span class="badge bg-warning ">Certified</span>
+                  <span class="badge bg-secondary my-2">New</span>
+                  <span class="badge bg-warning d-block ">Certified</span>
                 </div>
 
-                <button class="btn-light rounded-circle heart" type="button" data-bs-original-title="Add to Wishlist" aria-label="Add to Wishlist">
-                  <i class="bi bi-heart"></i>
-                </button>
-
-                <img src="images/car5.jpg" class="w-100 main-car1"  alt="">
-              </div>
-
-
-
-              <div class="card-body  ">
-                <div class="d-flex justify-content-between">
-                  <p class="text-light display-6 ">2015</p>
-                  <div class="form-check form-check-light">
-                    <input type="checkbox" class="compare" id="compare" name="compare" value="compare">
-                    <label for="compare" class="text-light display-6"> Compare</label><br>
-                  </div>
-                </div>
-                <a href="#" class="text-white-50 fw-bolder text-decoration-none ">Ford Truck Lifted</a>
-                <p class="fw-bold text-secondary my-1">$24,000</p>
-                <i class="bi bi-geo-alt-fill text-light"></i>
-                <span class="text-light display-6">Chicago</span>
-
-                <div class="card-footer">
-                  <div class="border-top border-secondary py-3">
-                    <div class="row g-2">
-
-                      <div class="col me-sm-2">
-                        <div class="bg-primary rounded text-center w-100 h-100 p-2">
-                          <i class="bi bi-markdown d-block h4 text-light mb-0 mx-center">
-                          </i><span class="fs-xs text-light">48K mi</span>
-                        </div>
-                      </div>
-
-                      <div class="col me-sm-2">
-                        <div class="bg-primary rounded text-center w-100 h-100 p-2">
-                          <i class="bi bi-gear-wide-connected d-block h4 text-light mb-0 mx-center">
-                          </i><span class="fs-xs text-light">Automatic</span>
-                        </div>
-                      </div>
-
-                      <div class="col">
-                        <div class="bg-primary rounded text-center w-100 h-100 p-2">
-                          <i class="bi bi-fuel-pump d-block h4 text-light mb-0 mx-center">
-                          </i><span class="fs-xs text-light">Gasoline</span>
-                        </div>
-                      </div>
-
+                <div class="carousel-inner">
+                  <div class="carousel-item active ">
+                    <img src="images/car5.jpg" class="car-latest w-q"  >
+                    <div class="middle">
+                      <button class="btn-light rounded-circle heart border-0" type="button" data-bs-original-title="Add to Wishlist" aria-label="Add to Wishlist">
+                        <i class="bi bi-heart fs-5 text-secondary "></i>
+                      </button>
                     </div>
+
                   </div>
                 </div>
+              </div>
+              <div class="card-body px-3">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                  <p class="text-light fs-sm m-0 ">2015</p>
+                  <div class="form-check form-check-light">
+                    <input type="checkbox" class="compare6 form-check-input mx-2" id="compare6" name="compare1" value="compare">
+                    <label for="compare6" class="text-light fs-sm p-0"> Compare</label><br>
+                  </div>
+                </div>
+                <div class="border-line2 my-3 pb-3">
+                  <a href="#" class="text-white-50 fw-bolder text-decoration-none ">Mercedes Benz Convertible Coupe</a>
+                  <p class="fw-bold text-secondary">$25,800</p>
+                  <i class="bi bi-geo-alt-fill text-light"></i>
+                  <span class="text-light fs-sm  ">New York</span>
+                </div>
+
+                <div class=" ">
+                  <div class="row g-2 mt-3">
+
+                    <div class="col me-sm-2">
+                      <div class="bg-primary rounded text-center w-100 h-100 p-2">
+                        <i class="bi bi-markdown d-block h5 text-light mb-0 mx-center">
+                        </i><span class="text-light display-6">48K mi</span>
+                      </div>
+                    </div>
+
+                    <div class="col me-sm-2">
+                      <div class="bg-primary rounded text-center w-100 h-100 p-2">
+                        <i class="bi bi-gear-wide-connected d-block h5 text-light mb-0 mx-center">
+                        </i><span class="display-6 text-light">Automatic</span>
+                      </div>
+                    </div>
+
+                    <div class="col">
+                      <div class="bg-primary rounded text-center w-100 h-100 p-2">
+                        <i class="bi bi-fuel-pump d-block h5 text-light mb-0 mx-center">
+                        </i><span class="display-6 text-light">Gasoline</span>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
               </div>
 
 
@@ -876,60 +905,64 @@
 
               <div class="photo">
                 <div class="text">
-                  <span class="badge bg-secondary">New</span>
-                  <span class="badge bg-warning ">Certified</span>
+                  <span class="badge bg-secondary my-2">New</span>
+                  <span class="badge bg-warning d-block ">Certified</span>
                 </div>
 
-                <button class="btn-light rounded-circle heart" type="button" data-bs-original-title="Add to Wishlist" aria-label="Add to Wishlist">
-                  <i class="bi bi-heart"></i>
-                </button>
-
-                <img src="images/car6.jpg" class="w-100 main-car1"  alt="">
-              </div>
-
-
-
-              <div class="card-body  ">
-                <div class="d-flex justify-content-between">
-                  <p class="text-light display-6 ">2015</p>
-                  <div class="form-check form-check-light">
-                    <input type="checkbox" class="compare" id="compare" name="compare" value="compare">
-                    <label for="compare" class="text-light display-6"> Compare</label><br>
-                  </div>
-                </div>
-                <a href="#" class="text-white-50 fw-bolder text-decoration-none ">Ford Truck Lifted</a>
-                <p class="fw-bold text-secondary my-1">$24,000</p>
-                <i class="bi bi-geo-alt-fill text-light"></i>
-                <span class="text-light display-6">Chicago</span>
-
-                <div class="card-footer">
-                  <div class="border-top border-secondary py-3">
-                    <div class="row g-2">
-
-                      <div class="col me-sm-2">
-                        <div class="bg-primary rounded text-center w-100 h-100 p-2">
-                          <i class="bi bi-markdown d-block h4 text-light mb-0 mx-center">
-                          </i><span class="fs-xs text-light">48K mi</span>
-                        </div>
-                      </div>
-
-                      <div class="col me-sm-2">
-                        <div class="bg-primary rounded text-center w-100 h-100 p-2">
-                          <i class="bi bi-gear-wide-connected d-block h4 text-light mb-0 mx-center">
-                          </i><span class="fs-xs text-light">Automatic</span>
-                        </div>
-                      </div>
-
-                      <div class="col">
-                        <div class="bg-primary rounded text-center w-100 h-100 p-2">
-                          <i class="bi bi-fuel-pump d-block h4 text-light mb-0 mx-center">
-                          </i><span class="fs-xs text-light">Gasoline</span>
-                        </div>
-                      </div>
-
+                <div class="carousel-inner">
+                  <div class="carousel-item active ">
+                    <img src="images/car6.jpg" class="car-latest w-q"  >
+                    <div class="middle">
+                      <button class="btn-light rounded-circle heart border-0" type="button" data-bs-original-title="Add to Wishlist" aria-label="Add to Wishlist">
+                        <i class="bi bi-heart fs-5 text-secondary "></i>
+                      </button>
                     </div>
+
                   </div>
                 </div>
+              </div>
+              <div class="card-body px-3">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                  <p class="text-light fs-sm m-0 ">2015</p>
+                  <div class="form-check form-check-light">
+                    <input type="checkbox" class="compare7 form-check-input mx-2" id="compare7" name="compare1" value="compare">
+                    <label for="compare7" class="text-light fs-sm p-0"> Compare</label><br>
+                  </div>
+                </div>
+                <div class="border-line2 my-3 pb-3">
+                  <a href="#" class="text-white-50 fw-bolder text-decoration-none ">Mercedes Benz Convertible Coupe</a>
+                  <p class="fw-bold text-secondary">$25,800</p>
+                  <i class="bi bi-geo-alt-fill text-light"></i>
+                  <span class="text-light fs-sm  ">New York</span>
+                </div>
+
+                <div class=" ">
+                  <div class="row g-2 mt-3">
+
+                    <div class="col me-sm-2">
+                      <div class="bg-primary rounded text-center w-100 h-100 p-2">
+                        <i class="bi bi-markdown d-block h5 text-light mb-0 mx-center">
+                        </i><span class="text-light display-6">48K mi</span>
+                      </div>
+                    </div>
+
+                    <div class="col me-sm-2">
+                      <div class="bg-primary rounded text-center w-100 h-100 p-2">
+                        <i class="bi bi-gear-wide-connected d-block h5 text-light mb-0 mx-center">
+                        </i><span class="display-6 text-light">Automatic</span>
+                      </div>
+                    </div>
+
+                    <div class="col">
+                      <div class="bg-primary rounded text-center w-100 h-100 p-2">
+                        <i class="bi bi-fuel-pump d-block h5 text-light mb-0 mx-center">
+                        </i><span class="display-6 text-light">Gasoline</span>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
               </div>
 
 
@@ -941,60 +974,64 @@
 
               <div class="photo">
                 <div class="text">
-                  <span class="badge bg-secondary">New</span>
-                  <span class="badge bg-warning ">Certified</span>
+                  <span class="badge bg-secondary my-2">New</span>
+                  <span class="badge bg-warning d-block ">Certified</span>
                 </div>
 
-                <button class="btn-light rounded-circle heart" type="button" data-bs-original-title="Add to Wishlist" aria-label="Add to Wishlist">
-                  <i class="bi bi-heart"></i>
-                </button>
-
-                <img src="images/car7.jpg" class="w-100 main-car1"  alt="">
-              </div>
-
-
-
-              <div class="card-body  ">
-                <div class="d-flex justify-content-between">
-                  <p class="text-light display-6 ">2015</p>
-                  <div class="form-check form-check-light">
-                    <input type="checkbox" class="compare" id="compare" name="compare" value="compare">
-                    <label for="compare" class="text-light display-6"> Compare</label><br>
-                  </div>
-                </div>
-                <a href="#" class="text-white-50 fw-bolder text-decoration-none ">Ford Truck Lifted</a>
-                <p class="fw-bold text-secondary my-1">$24,000</p>
-                <i class="bi bi-geo-alt-fill text-light"></i>
-                <span class="text-light display-6">Chicago</span>
-
-                <div class="card-footer">
-                  <div class="border-top border-secondary py-3">
-                    <div class="row g-2">
-
-                      <div class="col me-sm-2">
-                        <div class="bg-primary rounded text-center w-100 h-100 p-2">
-                          <i class="bi bi-markdown d-block h4 text-light mb-0 mx-center">
-                          </i><span class="fs-xs text-light">48K mi</span>
-                        </div>
-                      </div>
-
-                      <div class="col me-sm-2">
-                        <div class="bg-primary rounded text-center w-100 h-100 p-2">
-                          <i class="bi bi-gear-wide-connected d-block h4 text-light mb-0 mx-center">
-                          </i><span class="fs-xs text-light">Automatic</span>
-                        </div>
-                      </div>
-
-                      <div class="col">
-                        <div class="bg-primary rounded text-center w-100 h-100 p-2">
-                          <i class="bi bi-fuel-pump d-block h4 text-light mb-0 mx-center">
-                          </i><span class="fs-xs text-light">Gasoline</span>
-                        </div>
-                      </div>
-
+                <div class="carousel-inner">
+                  <div class="carousel-item active ">
+                    <img src="images/car7.jpg" class="car-latest w-q"  >
+                    <div class="middle">
+                      <button class="btn-light rounded-circle heart border-0" type="button" data-bs-original-title="Add to Wishlist" aria-label="Add to Wishlist">
+                        <i class="bi bi-heart fs-5 text-secondary "></i>
+                      </button>
                     </div>
+
                   </div>
                 </div>
+              </div>
+              <div class="card-body px-3">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                  <p class="text-light fs-sm m-0 ">2015</p>
+                  <div class="form-check form-check-light">
+                    <input type="checkbox" class="compare8 form-check-input mx-2" id="compare8" name="compare1" value="compare">
+                    <label for="compare8" class="text-light fs-sm p-0"> Compare</label><br>
+                  </div>
+                </div>
+                <div class="border-line2 my-3 pb-3">
+                  <a href="#" class="text-white-50 fw-bolder text-decoration-none ">Mercedes Benz Convertible Coupe</a>
+                  <p class="fw-bold text-secondary">$25,800</p>
+                  <i class="bi bi-geo-alt-fill text-light"></i>
+                  <span class="text-light fs-sm  ">New York</span>
+                </div>
+
+                <div class=" ">
+                  <div class="row g-2 mt-3">
+
+                    <div class="col me-sm-2">
+                      <div class="bg-primary rounded text-center w-100 h-100 p-2">
+                        <i class="bi bi-markdown d-block h5 text-light mb-0 mx-center">
+                        </i><span class="text-light display-6">48K mi</span>
+                      </div>
+                    </div>
+
+                    <div class="col me-sm-2">
+                      <div class="bg-primary rounded text-center w-100 h-100 p-2">
+                        <i class="bi bi-gear-wide-connected d-block h5 text-light mb-0 mx-center">
+                        </i><span class="display-6 text-light">Automatic</span>
+                      </div>
+                    </div>
+
+                    <div class="col">
+                      <div class="bg-primary rounded text-center w-100 h-100 p-2">
+                        <i class="bi bi-fuel-pump d-block h5 text-light mb-0 mx-center">
+                        </i><span class="display-6 text-light">Gasoline</span>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
               </div>
 
 
@@ -1005,60 +1042,64 @@
 
               <div class="photo">
                 <div class="text">
-                  <span class="badge bg-secondary">New</span>
-                  <span class="badge bg-warning ">Certified</span>
+                  <span class="badge bg-secondary my-2">New</span>
+                  <span class="badge bg-warning d-block ">Certified</span>
                 </div>
 
-                <button class="btn-light rounded-circle heart" type="button" data-bs-original-title="Add to Wishlist" aria-label="Add to Wishlist">
-                  <i class="bi bi-heart"></i>
-                </button>
-
-                <img src="images/car8.jpg" class="w-100 main-car1"  alt="">
-              </div>
-
-
-
-              <div class="card-body  ">
-                <div class="d-flex justify-content-between">
-                  <p class="text-light display-6 ">2015</p>
-                  <div class="form-check form-check-light">
-                    <input type="checkbox" class="compare" id="compare" name="compare" value="compare">
-                    <label for="compare" class="text-light display-6"> Compare</label><br>
-                  </div>
-                </div>
-                <a href="#" class="text-white-50 fw-bolder text-decoration-none ">Ford Truck Lifted</a>
-                <p class="fw-bold text-secondary my-1">$24,000</p>
-                <i class="bi bi-geo-alt-fill text-light"></i>
-                <span class="text-light display-6">Chicago</span>
-
-                <div class="card-footer">
-                  <div class="border-top border-secondary py-3">
-                    <div class="row g-2">
-
-                      <div class="col me-sm-2">
-                        <div class="bg-primary rounded text-center w-100 h-100 p-2">
-                          <i class="bi bi-markdown d-block h4 text-light mb-0 mx-center">
-                          </i><span class="fs-xs text-light">48K mi</span>
-                        </div>
-                      </div>
-
-                      <div class="col me-sm-2">
-                        <div class="bg-primary rounded text-center w-100 h-100 p-2">
-                          <i class="bi bi-gear-wide-connected d-block h4 text-light mb-0 mx-center">
-                          </i><span class="fs-xs text-light">Automatic</span>
-                        </div>
-                      </div>
-
-                      <div class="col">
-                        <div class="bg-primary rounded text-center w-100 h-100 p-2">
-                          <i class="bi bi-fuel-pump d-block h4 text-light mb-0 mx-center">
-                          </i><span class="fs-xs text-light">Gasoline</span>
-                        </div>
-                      </div>
-
+                <div class="carousel-inner">
+                  <div class="carousel-item active ">
+                    <img src="images/car8.jpg" class="car-latest w-q"  >
+                    <div class="middle">
+                      <button class="btn-light rounded-circle heart border-0" type="button" data-bs-original-title="Add to Wishlist" aria-label="Add to Wishlist">
+                        <i class="bi bi-heart fs-5 text-secondary "></i>
+                      </button>
                     </div>
+
                   </div>
                 </div>
+              </div>
+              <div class="card-body px-3">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                  <p class="text-light fs-sm m-0 ">2015</p>
+                  <div class="form-check form-check-light">
+                    <input type="checkbox" class="compare9 form-check-input mx-2" id="compare9" name="compare1" value="compare">
+                    <label for="compare9" class="text-light fs-sm p-0"> Compare</label><br>
+                  </div>
+                </div>
+                <div class="border-line2 my-3 pb-3">
+                  <a href="#" class="text-white-50 fw-bolder text-decoration-none ">Mercedes Benz Convertible Coupe</a>
+                  <p class="fw-bold text-secondary">$25,800</p>
+                  <i class="bi bi-geo-alt-fill text-light"></i>
+                  <span class="text-light fs-sm  ">New York</span>
+                </div>
+
+                <div class=" ">
+                  <div class="row g-2 mt-3">
+
+                    <div class="col me-sm-2">
+                      <div class="bg-primary rounded text-center w-100 h-100 p-2">
+                        <i class="bi bi-markdown d-block h5 text-light mb-0 mx-center">
+                        </i><span class="text-light display-6">48K mi</span>
+                      </div>
+                    </div>
+
+                    <div class="col me-sm-2">
+                      <div class="bg-primary rounded text-center w-100 h-100 p-2">
+                        <i class="bi bi-gear-wide-connected d-block h5 text-light mb-0 mx-center">
+                        </i><span class="display-6 text-light">Automatic</span>
+                      </div>
+                    </div>
+
+                    <div class="col">
+                      <div class="bg-primary rounded text-center w-100 h-100 p-2">
+                        <i class="bi bi-fuel-pump d-block h5 text-light mb-0 mx-center">
+                        </i><span class="display-6 text-light">Gasoline</span>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
               </div>
 
 
@@ -1069,96 +1110,110 @@
 
               <div class="photo">
                 <div class="text">
-                  <span class="badge bg-secondary">New</span>
-                  <span class="badge bg-warning ">Certified</span>
+                  <span class="badge bg-secondary my-2">New</span>
+                  <span class="badge bg-warning d-block  ">Certified</span>
                 </div>
 
-                <button class="btn-light rounded-circle heart" type="button" data-bs-original-title="Add to Wishlist" aria-label="Add to Wishlist">
-                  <i class="bi bi-heart"></i>
-                </button>
-
-                <img src="images/car9.jpg" class="w-100 main-car1"  alt="">
-              </div>
-
-
-
-              <div class="card-body  ">
-                <div class="d-flex justify-content-between">
-                  <p class="text-light display-6 ">2015</p>
-                  <div class="form-check form-check-light">
-                    <input type="checkbox" class="compare" id="compare" name="compare" value="compare">
-                    <label for="compare" class="text-light display-6"> Compare</label><br>
-                  </div>
-                </div>
-                <a href="#" class="text-white-50 fw-bolder text-decoration-none ">Ford Truck Lifted</a>
-                <p class="fw-bold text-secondary my-1">$24,000</p>
-                <i class="bi bi-geo-alt-fill text-light"></i>
-                <span class="text-light display-6">Chicago</span>
-
-                <div class="card-footer">
-                  <div class="border-top border-secondary py-3">
-                    <div class="row g-2">
-
-                      <div class="col me-sm-2">
-                        <div class="bg-primary rounded text-center w-100 h-100 p-2">
-                          <i class="bi bi-markdown d-block h4 text-light mb-0 mx-center">
-                          </i><span class="fs-xs text-light">48K mi</span>
-                        </div>
-                      </div>
-
-                      <div class="col me-sm-2">
-                        <div class="bg-primary rounded text-center w-100 h-100 p-2">
-                          <i class="bi bi-gear-wide-connected d-block h4 text-light mb-0 mx-center">
-                          </i><span class="fs-xs text-light">Automatic</span>
-                        </div>
-                      </div>
-
-                      <div class="col">
-                        <div class="bg-primary rounded text-center w-100 h-100 p-2">
-                          <i class="bi bi-fuel-pump d-block h4 text-light mb-0 mx-center">
-                          </i><span class="fs-xs text-light">Gasoline</span>
-                        </div>
-                      </div>
-
+                <div class="carousel-inner">
+                  <div class="carousel-item active ">
+                    <img src="images/car9.jpg" class="car-latest w-q"  >
+                    <div class="middle">
+                      <button class="btn-light rounded-circle heart border-0" type="button" data-bs-original-title="Add to Wishlist" aria-label="Add to Wishlist">
+                        <i class="bi bi-heart fs-5 text-secondary "></i>
+                      </button>
                     </div>
+
                   </div>
                 </div>
+              </div>
+              <div class="card-body px-3">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                  <p class="text-light fs-sm m-0 ">2015</p>
+                  <div class="form-check form-check-light">
+                    <input type="checkbox" class="compare10 form-check-input mx-2" id="compare10" name="compare1" value="compare">
+                    <label for="compare10" class="text-light fs-sm p-0"> Compare</label><br>
+                  </div>
+                </div>
+                <div class="border-line2 my-3 pb-3">
+                  <a href="#" class="text-white-50 fw-bolder text-decoration-none ">Mercedes Benz Convertible Coupe</a>
+                  <p class="fw-bold text-secondary">$25,800</p>
+                  <i class="bi bi-geo-alt-fill text-light"></i>
+                  <span class="text-light fs-sm  ">New York</span>
+                </div>
+
+                <div class=" ">
+                  <div class="row g-2 mt-3">
+
+                    <div class="col me-sm-2">
+                      <div class="bg-primary rounded text-center w-100 h-100 p-2">
+                        <i class="bi bi-markdown d-block h5 text-light mb-0 mx-center">
+                        </i><span class="text-light display-6">48K mi</span>
+                      </div>
+                    </div>
+
+                    <div class="col me-sm-2">
+                      <div class="bg-primary rounded text-center w-100 h-100 p-2">
+                        <i class="bi bi-gear-wide-connected d-block h5 text-light mb-0 mx-center">
+                        </i><span class="display-6 text-light">Automatic</span>
+                      </div>
+                    </div>
+
+                    <div class="col">
+                      <div class="bg-primary rounded text-center w-100 h-100 p-2">
+                        <i class="bi bi-fuel-pump d-block h5 text-light mb-0 mx-center">
+                        </i><span class="display-6 text-light">Gasoline</span>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
               </div>
 
 
             </div>
           </div>
+
         </div>
+
 
         <div id="carouselmark" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <div class=" row my-5 text-light justify-content-between bg-success p-5 rounded-3">
-                <div class="col-12 col-lg-3 ">
-                  <h3 class="fw-bold mb-3">Auto Market</h3>
-                  <p class="text-white-50">Choose the best for your car!</p>
+              <div class=" row my-5 text-light bg-success align-items-center p-5 rounded-3">
+                <div class="col-md-4  col-lg-3  ">
+                  <h2 class="fw-bold mb-3">Auto Market</h2>
+                  <p class="text-white-50 fs-5">Choose the best for your car!</p>
                   <a href="#" class="btn btn-secondary my-3">
                     Go to Shop
                     <i class="bi bi-arrow-right"></i>
                   </a>
                 </div>
-                <div class="col-6 col-lg-2">
-                  <img src="images/Seat..png" class="w-100" alt="">
-                </div>
-                <div class="col-6 col-lg-2">
-                  <img src="images/tire.png" class="w-100" alt="">
-                </div>
-                <div class="col-6 col-lg-2">
-                  <img src="images/disks.png" class="w-100" alt="">
-                </div>
-                <div class="col-6 col-lg-2">
-                  <img src="images/childseat.png" class="w-100" alt="">
+                <div class="col-md-8 col-lg-9 d-flex">
+                    <div class="row row-cols-2 row-cols-lg-4 gy-4 gx-3 gx-sm-4">
+                      <a href="#" class="text-light text-decoration-none col">
+                        <img src="images/Seat..png" class="w-100 d-block mb-2 mx-auto" alt="">
+                        <div class="fw-bold text-center pt-1">Seat Covers</div>
+                      </a>
+                      <a href="#" class="text-light text-decoration-none col">
+                        <img src="images/tire.png" class="w-100 d-block mb-2 mx-auto" alt="">
+                        <div class="fw-bold text-center pt-1">Tires</div>
+                      </a>
+                      <a href="#" class="text-light text-decoration-none col">
+                        <img src="images/disks.png" class="w-100 d-block mb-2 mx-auto" alt="">
+                        <div class="fw-bold text-center pt-1">Disks</div>
+                      </a>
+                      <a href="#" class="text-light text-decoration-none col">
+                        <img src="images/childseat.png" class="w-100 d-block mb-2 mx-auto" alt="">
+                        <div class="fw-bold text-center pt-1">Child Seats</div>
+                      </a>
+                    </div>
                 </div>
               </div>
             </div>
             <div class="carousel-item">
-              <div class="row my-5 text-light justify-content-between bg-success p-5 rounded-3">
-                <div class="col-12 col-lg-5 ">
+              <div class="row my-5 text-light d-flex align-items-center justify-content-between bg-success p-5 rounded-3">
+                <div class="col-md-4 col-lg-3 ">
                   <h3 class="fw-bold mb-3">Car sale in 24 hours</h3>
                   <p class="text-white-50">Calculate your car's value, then choose how you want to sell.</p>
                   <a href="#" class="btn btn-secondary my-3">
@@ -1166,33 +1221,37 @@
                     <i class="bi bi-arrow-right"></i>
                   </a>
                 </div>
-                <div class="col-12 col-lg-7 d-flex justify-content-around align-items-center">
-                  <div class="col-12 col-lg-2 p-4 m-0 bg-primary rounded-3 ">
-                    <img src="images/buyers.svg" alt="">
-                  </div>
-                  <div class="col-12 col-lg-2 p-4 m-0 rounded-3 bg-primary">
-                    <img src="images/tools.svg"  alt="">
-                  </div>
-                  <div class="col-12 col-lg-2 p-4 m-0 rounded-3 bg-primary">
-                    <img src="images/handshake.svg" alt="">
-                  </div>
+                <div class="col-md-8 col-lg-9 ">
+                 <div class="row row-cols-lg-3 row-cols-2">
+                   <div class="col text-light text-decoration-none text-center my-5  ">
+                     <img src="images/buyers.svg" class="w-25"  alt="">
+                     <div class="fw-bold text-center pt-1">Vetted buyers</div>
+                   </div>
+                   <div class="col text-light text-decoration-none text-center my-5   ">
+                     <img src="images/tools.svg" class="w-25"  alt="">
+                     <div class="fw-bold text-center pt-1">Smart tools</div>
+                   </div>
+                   <div class="col text-light text-decoration-none text-center my-5   ">
+                     <img src="images/handshake.svg" class="w-25" alt="">
+                     <div class="fw-bold text-center pt-1">The offer you deserve</div>
+                   </div>
+                 </div>
                 </div>
 
               </div>
             </div>
           </div>
 
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselmark" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <button class="btn btn-success btn-sm rounded-circle" type="button" data-bs-target="#carouselmark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true" ></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselmark" data-bs-slide="next">
+          <button class="btn btn-success btn-sm rounded-circle mx-2" type="button" data-bs-target="#carouselmark" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
-        </div>
+          </div>
       </div>
-
 
       <div class="row my-5 py-5">
         <div class="col-12 col-lg-6 text-light px-5 d-flex justify-content-center align-items-center" >
@@ -1211,34 +1270,20 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-6 text-center">
+        <div class="col-12 col-lg-6 text-center mt-3">
           <img src="images/mobile-app.png" class="w-75" alt="">
         </div>
 
       </div>
-      
-
-
 
     </div>
-    <div class="row">
-     <div class="col-12">
-       <button class="btn btn-secondary rounded-3 carousel-control-prev"  type="button" data-slide="prev">
-         <i class="bi bi-caret-left "></i>
-       </button>
-       <button class="btn btn-secondary rounded-3 mx-2 carousel-control-next" type="button" data-slide="next">
-         <i class="bi bi-caret-right btn-secondary"></i>
-       </button>
-     </div>
-    </div>
 
 
 
-  </div>
-</section>
+  </section>
 
 <!--Latest News-->
-<section class="container">
+<section class="container ">
   <div class="row ">
     <div class="col-12 ">
       <div class="d-flex justify-content-between align-items-center">
@@ -1246,7 +1291,7 @@
         <a href="#" class="text-light text-decoration-none">Go to Blog<i class="bi bi-arrow-right text-light mx-2"></i></a>
       </div>
       <div class="row mt-5">
-        <div class="col-12 col-lg-4">
+        <div class="col-12 col-lg-4 mb-5">
           <div class="card bg-primary  border-0">
             <img src="images/car10.jpg" class="card-img-top rounded-3" alt="...">
             <div class="mt-4">
@@ -1270,7 +1315,7 @@
 
           </div>
         </div>
-        <div class="col-12 col-lg-4">
+        <div class="col-12 col-lg-4  mb-5">
           <div class="card bg-primary  border-0">
             <img src="images/car11.jpg" class="card-img-top rounded-3" alt="...">
             <div class="mt-4">
@@ -1294,7 +1339,7 @@
 
           </div>
         </div>
-        <div class="col-12 col-lg-4">
+        <div class="col-12 col-lg-4  mb-5">
           <div class="card bg-primary  border-0">
             <img src="images/car10.jpg" class="card-img-top rounded-3" alt="...">
             <div class="mt-4">
@@ -1364,48 +1409,128 @@
               </div>
           </div>
         </div>
-      <div class="container">
-        <div class="row border-top border-white-50 p-0  text-light">
-          <div class="my-5">
-            <div class="col-12 col-lg-3">
-              <h4 class="fw-bold">Subscribe to our newsletter</h4>
-              <p class="text-white-50 fs-6">Don’t miss any relevant offers!</p>
+      <div class="border-line2"></div>
+      <div class="container-fluid">
+       <div class="container">
+         <div class="row  text-light py-5 ">
+             <div class="col-12 col-md-12 col-lg-4">
+               <h4 class="fw-bold">Subscribe to our newsletter</h4>
+               <p class="text-white-50 fs-6">Don’t miss any relevant offers!</p>
+               <div class="bg-primary py-2 my-3 px-2  rounded-3 text-center d-flex justify-content-between align-items-center" >
+                 <div class="">
+                   <input type="text" class="bg-primary border-0 ms-2" placeholder="Your Email"/>
+                 </div>
+                 <button class="btn btn-secondary m-0">
+                   <i class="bi bi-send display-6 text-white"></i>
+                 </button>
+               </div>
+             </div>
+             <div class="col-6 col-md-3 col-lg-2 my-3 ps-4  text-light">
+               <div class="mb-3">
+                 <h5>Buying & Selling</h5>
+               </div>
+               <div class="">
+                 <div class="my-2">
+                   <a class="text-white-50 text-decoration-none  fs-6">Find a car</a>
+                 </div>
+                 <div class="my-2">
+                   <a class="text-white-50 text-decoration-none  fs-6">Sell your car</a>
+                 </div>
+                 <div class="my-2">
+                   <a class="text-white-50 text-decoration-none  fs-6">Car dealers</a>
+                 </div>
+                 <div class="my-2">
+                   <a class="text-white-50 text-decoration-none  fs-6">Compare cars</a>
+                 </div>
+                 <div class="my-2">
+                   <a class="text-white-50 text-decoration-none  fs-6">Online car appraisal</a>
+                 </div>
+               </div>
+             </div>
+             <div class="col-6 col-md-3 col-lg-2  my-3 ps-4 text-light">
+               <div class="mb-3">
+                 <h5>About</h5>
+               </div>
+               <div class="">
+                 <div class="my-2">
+                   <a class="text-white-50 text-decoration-none  fs-6">About Finder</a>
+                 </div>
+                 <div class="my-2">
+                   <a class="text-white-50 text-decoration-none  fs-6">Contact usr</a>
+                 </div>
+                 <div class="my-2">
+                   <a class="text-white-50 text-decoration-none  fs-6">FAQs & support</a>
+                 </div>
+                 <div class="my-2">
+                   <a class="text-white-50 text-decoration-none  fs-6">Mobile app</a>
+                 </div>
+                 <div class="my-2">
+                   <a class="text-white-50 text-decoration-none  fs-6">Blog</a>
+                 </div>
+               </div>
+             </div>
+             <div class="col-6 col-md-3 col-lg-2  my-3 ps-4 text-light">
+               <div class="mb-3">
+                 <h5>Profile</h5>
+               </div>
+               <div class="">
+                 <div class="my-2">
+                   <a class="text-white-50 text-decoration-none  fs-6">My account</a>
+                 </div>
+                 <div class="my-2">
+                   <a class="text-white-50 text-decoration-none  fs-6">Wishlist</a>
+                 </div>
+                 <div class="my-2">
+                   <a class="text-white-50 text-decoration-none  fs-6">My listings</a>
+                 </div>
+                 <div class="my-2">
+                   <a class="text-white-50 text-decoration-none  fs-6">Add listing</a>
+                 </div>
+               </div>
+             </div>
+             <div class="col-6 col-md-3 col-lg-2 my-3 ps-4 ">
+               <div class="">
+                 <i class="bi bi-phone text-secondary">
+                   <a href="#" class="text-light display-6 text-decoration-none">(406) 555-0120</a>
+                 </i>
+               </div>
+               <div class="my-3">
+                 <i class="bi bi-envelope text-secondary">
+                   <a href="#" class="text-light display-6 text-decoration-none">example@email.com</a>
+                 </i>
+               </div>
 
-              <div class="bg-primary py-3 rounded-3 text-center justify-content-between" >
-                <i class="bi bi-envelope"></i>
-                <input type="text" class="bg-primary border-0 ms-2" size="17" placeholder="Your Email">
-                <button class="btn btn-secondary m-0">
-                  <i class="bi bi-send text-white"></i>
-                </button>
-              </div>
-            </div>
-            <div class="col-6 col-lg-2 text-light">
-           <div class="mb-3">
-             <h5>Buying & Selling</h5>
+               <div class="d-flex my-4 justify-content-between">
+                 <a href="#" class="me-3  " >
+                   <i class="bi bi-facebook fs-5 social"></i>
+                 </a>
+                 <a href="#" class="mx-3 " >
+                   <i class="bi bi-twitter fs-5  social"></i>
+                 </a>
+                 <a href="#" class="mx-3 " >
+                   <i class="bi bi-telegram fs-5 social"></i>
+                 </a>
+                 <a href="#" class="mx-3 ">
+                   <i class="bi bi-messenger fs-5 social"></i>
+                 </a>
+               </div>
+
+
+             </div>
+
+           <div class="row mt-4 mx-3 flex-wrap">
+             <div class="col-md-12 col-lg-8 d-flex justify-content-between mt-3">
+               <p class="text-white-50 m-0 fs-6">Terms of use</p>
+               <p class="text-white-50 m-0 fs-6">Privacy policy</p>
+               <p class="text-white-50 m-0 fs-6">Accessibility statement</p>
+               <p class="text-white-50 m-0 fs-6">Interest based ads</p>
+             </div>
+             <div class="col-md-12 col-lg-4 d-flex justify-content-center mt-3 p-0">
+                 <p class="text-white-50 m-0 fs-6">© All rights reserved. Made by Createx Studio</p>
+             </div>
            </div>
-             <div class="">
-               <div class="">
-                 <a class="text-white-50 text-decoration-none fs-6">Find a car</a>
-               </div>
-               <div class="">
-                 <a class="text-white-50 text-decoration-none fs-6">Sell your car</a>
-               </div>
-               <div class="">
-                 <a class="text-white-50 text-decoration-none fs-6">Car dealers</a>
-               </div>
-               <div class="">
-                 <a class="text-white-50 text-decoration-none fs-6">Compare cars</a>
-               </div>
-               <div class="">
-                 <a class="text-white-50 text-decoration-none fs-6">Online car appraisal</a>
-               </div>
-               </div>
-            </div>
-            <div class="col-6 col-lg-2"></div>
-            <div class="col-6 col-lg-2"></div>
-            <div class="col-12 col-lg-3"></div>
-          </div>
-        </div>
+           </div>
+       </div>
       </div>
 
     </div>
