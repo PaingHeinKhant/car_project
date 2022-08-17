@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Catalog</title>
     <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="node_modules/metro4/build/css/metro-all.min.css">
 </head>
 <body class="bg-primary " >
 <!--navbar-->
@@ -89,7 +89,7 @@
 <div class="container">
     <div class="row min-vh-100">
         <div class="col-lg-3 mt-5">
-            <div class="pt-5 mt-5">
+            <div class=" mt-5">
                 <ul class="p-0">
                     <li class="btn btn-light text-secondary nav-item ">
                         <a href="#" class="nav-link active">Search New</a>
@@ -266,32 +266,159 @@
                 </select>
             </div>
 
-            <!--            Price-->
+            <!--            Drivetrain-->
             <div class="my-4">
-                <h5 class="fw-bold text-white mb-3 ">Price</h5>
+                <h5 class="fw-bold text-white mb-3 ">Drivetrain</h5>
+                <div class="form-check form-check-light d-flex align-items-center mb-2">
+                    <input type="checkbox"  class="AWD/4WD form-check-input me-2 " id="AWD/4WD" name="AWD/4WD" value="compare">
+                    <label for="AWD/4WD" class="text-light fs-sm "> AWD/4WD</label><br>
+                </div>
+                <div class="form-check form-check-light d-flex align-items-center mb-2">
+                    <input type="checkbox"  class="FrontWheelDrive form-check-input me-2 " id="FrontWheelDrive" name="FrontWheelDrive" value="compare">
+                    <label for="FrontWheelDrive" class="text-light fs-sm "> Front Wheel Drive</label><br>
+                </div>
+                <div class="form-check form-check-light d-flex align-items-center mb-2">
+                    <input type="checkbox"  class="RearWheelDrive form-check-input me-2 " id="RearWheelDrive" name="RearWheelDrive" value="compare">
+                    <label for="RearWheelDrive" class="text-light fs-sm "> Rear Wheel Drive</label><br>
+                </div>
+            </div>
 
-                <div class="range_container">
-                    <div class="sliders_control">
-                        <input id="fromSlider" type="range" value="10" min="0" max="100"/>
-                        <input id="toSlider" type="range" value="40" min="0" max="100"/>
+            <!--            Fuel Type-->
+            <div class="my-4">
+                <h5 class="fw-bold text-white mb-3 ">Fuel Type</h5>
+                <div class="form-check form-check-light d-flex align-items-center mb-2">
+                    <input type="checkbox"  class="Diesel form-check-input me-2 " id="Diesel" name="Diesel" value="compare">
+                    <label for="Diesel" class="text-light fs-sm "> Diesel</label><br>
+                </div>
+                <div class="form-check form-check-light d-flex align-items-center mb-2">
+                    <input type="checkbox"  class="Electric form-check-input me-2 " id="Electric" name="Electric" value="compare">
+                    <label for="Electric" class="text-light fs-sm ">Electric</label><br>
+                </div>
+                <div class="form-check form-check-light d-flex align-items-center mb-2">
+                    <input type="checkbox"  class="Gasoline form-check-input me-2 " id="Gasoline" name="Gasoline" value="compare">
+                    <label for="Gasoline" class="text-light fs-sm ">Gasoline</label><br>
+                </div>
+                <div class="form-check form-check-light d-flex align-items-center mb-2">
+                    <input type="checkbox"  class="Hybrid form-check-input me-2 " id="Hybrid" name="Hybrid" value="compare">
+                    <label for="Hybrid" class="text-light fs-sm ">Electric</label><br>
+                </div>
+                <div class="form-check form-check-light d-flex align-items-center mb-2">
+                    <input type="checkbox"  class="Hydrogen form-check-input me-2 " id="Hydrogen" name="Hydrogen" value="compare">
+                    <label for="Hydrogen" class="text-light fs-sm ">Hydrogen</label><br>
+                </div>
+                <div class="form-check form-check-light d-flex align-items-center mb-2">
+                    <input type="checkbox"  class="Plug-in-Hybrid form-check-input me-2 " id="Plug-in-Hybrid" name="Plug-in-Hybrid" value="compare">
+                    <label for="Plug-in-Hybrid" class="text-light fs-sm ">Plug-in Hybrid</label><br>
+                </div>
+            </div>
+
+            <!--            Transmission-->
+            <div class="my-4">
+                <h5 class="fw-bold text-white mb-3 ">Transmission</h5>
+                <div class="form-check form-check-light d-flex align-items-center mb-2">
+                    <input type="checkbox"  class="Automatic form-check-input me-2 " id="Automatic" name="Automatic" value="compare">
+                    <label for="Automatic" class="text-light fs-sm "> Automatic</label><br>
+                </div>
+                <div class="form-check form-check-light d-flex align-items-center mb-2">
+                    <input type="checkbox"  class="Manual form-check-input me-2 " id="Manual" name="Manual" value="compare">
+                    <label for="Manual" class="text-light fs-sm ">Manual</label><br>
+                </div>
+            </div>
+
+            <!--            Mileage-->
+            <div class="my-4 ">
+                <h5 class="fw-bold text-white mb-3 ">Mileage</h5>
+                <div class="row">
+                    <div class="col-4 ms-2 p-0">
+                        <input type="text" class="bg-success text-light w-100 border-0 border-line3 rounded px-3" placeholder="From" >
                     </div>
-                    <div class="form_control">
-                        <div class="form_control_container">
-                            <div class="form_control_container__time">Min</div>
-                            <input class="form_control_container__time__input  bg-success text-light mb-2" type="number" id="fromInput" value="10" min="0" max="100"/>
-                        </div>
-                        <div class="form_control_container">
-                            <div class="form_control_container__time">Max</div>
-                            <input class="form_control_container__time__input" type="number" id="toInput" value="40" min="0" max="100"/>
-                        </div>
+                    <div class="col-1">
+                        <div class="border-line2 mt-2 p-0"></div>
                     </div>
+                    <div class="col-4 p-0">
+                        <input type="text" class="bg-success text-light w-100 border-0 border-line3 rounded px-3" placeholder="To" >
+                    </div>
+                </div>
+            </div>
+
+            <!--            Color-->
+            <div class="my-4">
+                <h5 class="fw-bold text-white mb-3 ">Color</h5>
+                <div class="form-border">
+                    <div class="form-check form-check-light d-flex align-items-center mb-2">
+                        <input type="checkbox"  class="red form-check-input me-2 " id="red" name="red" value="compare">
+                        <label for="red" class="text-light fs-sm"> red</label><br>
+                    </div>
+                    <div class="form-check form-check-light d-flex align-items-center mb-2">
+                        <input type="checkbox" class="blue form-check-input me-2" id="blue" name="blue" value="compare">
+                        <label for="blue" class="text-light fs-sm"> blue</label><br>
+                    </div>
+                    <div class="form-check form-check-light d-flex align-items-center mb-2">
+                        <input type="checkbox" class="purple form-check-input me-2" id="purple" name="purple" value="compare">
+                        <label for="purple" class="text-light fs-sm"> purple</label><br>
+                    </div>
+                    <div class="form-check form-check-light d-flex align-items-center mb-2">
+                        <input type="checkbox" class="black form-check-input me-2" id="black" name="black" value="compare">
+                        <label for="black" class="text-light fs-sm"> black</label><br>
+                    </div>
+                    <div class="form-check form-check-light d-flex align-items-center mb-2">
+                        <input type="checkbox" class="Yellow form-check-input me-2" id="Yellow" name="Yellow" value="compare">
+                        <label for="Yellow" class="text-light fs-sm"> Yellow</label><br>
+                    </div>
+                    <div class="form-check form-check-light d-flex align-items-center mb-2">
+                        <input type="checkbox" class="white form-check-input me-2" id="white" name="white" value="compare">
+                        <label for="white" class="text-light fs-sm"> white</label><br>
+                    </div>
+                    <div class="form-check form-check-light d-flex align-items-center mb-2">
+                        <input type="checkbox" class="gold form-check-input me-2" id="gold" name="gold" value="compare">
+                        <label for="gold" class="text-light fs-sm"> gold</label><br>
+                    </div>
+                    <div class="form-check form-check-light d-flex align-items-center mb-2">
+                        <input type="checkbox" class="green form-check-input me-2" id="green" name="green" value="compare">
+                        <label for="green" class="text-light fs-sm">green</label><br>
+                    </div>
+                    <div class="form-check form-check-light d-flex align-items-center mb-2">
+                        <input type="checkbox" class="gray form-check-input me-2" id="gray" name="gray" value="compare">
+                        <label for="gray" class="text-light fs-sm"> gray</label><br>
+                    </div>
+                    <div class="form-check form-check-light d-flex align-items-center mb-2">
+                        <input type="checkbox" class="charcoal form-check-input me-2" id="charcoal" name="charcoal" value="compare">
+                        <label for="charcoal" class="text-light fs-sm"> charcoal</label><br>
+                    </div>
+                </div>
+            </div>
+
+            <!--            Seller-->
+            <div class="my-4">
+                <h5 class="fw-bold text-white mb-3 ">Seller</h5>
+                <div class="form-check form-check-light d-flex align-items-center mb-2">
+                    <input type="checkbox"  class="Dealers Only form-check-input me-2 " id="Dealers Only" name="Dealers Only" value="compare">
+                    <label for="Dealers Only" class="text-light fs-sm "> Dealers Only</label><br>
+                </div>
+                <div class="form-check form-check-light d-flex align-items-center mb-2">
+                    <input type="checkbox"  class="Private Sellers Only form-check-input me-2 " id="Private Sellers Only" name="Private Sellers Only" value="compare">
+                    <label for="Private Sellers Only" class="text-light fs-sm ">Private Sellers Only</label><br>
                 </div>
             </div>
 
 
 
+
         </div>
-        <div class="col-lg-9"></div>
+        <div class="col-lg-9  mt-5">
+            <div class="mt-5">
+                <nav aria-label="breadcrumb ">
+                    <ol class="breadcrumb m-0 mb-3">
+                        <li class="breadcrumb-item "><a href="#" class="text-decoration-none text-white-50">Home</a></li>
+                        <li class="breadcrumb-item active text-white-50" aria-current="page">Used Cars</li>
+                    </ol>
+                </nav>
+            </div>
+
+            <div class="">
+                <h2 class="text-light fw-bolder">Used Cars</h2>
+            </div>
+        </div>
     </div>
 </div>
 
@@ -463,6 +590,7 @@
     </div>
 </section>
 
+<script src="node_modules/dual-range-bar/dist/dual-range-bar.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="slick/slick.min.js"></script>

@@ -46,5 +46,3 @@ import './vendor/slick-1.8.1/slick/slick.min';
      carAni.style.top = (value-2000) * 0.2 + 'px';
  })
 
-
-

@@ -15,6 +15,7 @@
   "dependencies": {
     "bootstrap": "^5.2.0",
     "bootstrap-icons": "^1.9.1",
+    "dual-range-bar": "^1.0.3",
     "metro4": "^4.5.1"
   }
 }
